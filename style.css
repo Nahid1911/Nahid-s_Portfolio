@@ -7,62 +7,62 @@
   box-sizing: border-box;
 }
 @media (min-width: 375px) {
-.menu-button {
-  display: flex;
-  justify-content: end;
-  margin-right: 10%;
-}
+  .menu-button {
+    display: flex;
+    justify-content: end;
+    margin-right: 10%;
+  }
 
-.main-container {
-  background-image: url(media/header-illsutration-mobile.svg);
-  height: 700px;
-  display: flex;
-  justify-content: center;
-}
+  .main-container {
+    background-image: url(media/header-illsutration-mobile.svg);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+  }
 
-.main-text {
-  margin: 0% 8% 10% 8%;
-  padding: 50px 0 0 30px;
-  width: 327px;
-  height: 211px;
-}
+  .main-text {
+    margin: 0% 8% 10% 8%;
+    padding: 50px 0 0 30px;
+    width: 327px;
+    height: 211px;
+  }
 
-.main-text .main-text-blue {
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  line-height: 52px;
-  color: #172b4d;
-  text-align: center;
-  letter-spacing: 0;
-}
+  .main-text .main-text-blue {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 52px;
+    color: #172b4d;
+    text-align: center;
+    letter-spacing: 0;
+  }
 
-.main-text .main-text-green {
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  line-height: 52px;
-  color: #36b37e;
-  text-align: center;
-}
+  .main-text .main-text-green {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 52px;
+    color: #36b37e;
+    text-align: center;
+  }
 
-.intro-text {
-  padding: 10px 0 0 0;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  line-height: 28px;
-  text-align: center;
-}
+  .intro-text {
+    padding: 10px 0 0 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+  }
 
-.social-media {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  list-style: none;
-}
+  .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
 
-.social-media img {
-  margin-right: 20px;
-}
+  .social-media img {
+    margin-right: 20px;
+  }
 }
