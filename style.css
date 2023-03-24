@@ -12,7 +12,7 @@
   justify-content: center;
 }
 
-.mobiledisplay  {
+.mobiledisplay {
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
@@ -23,7 +23,7 @@ span {
 }
 
 .navlogo {
-  margin-left: 50%;  
+  margin-left: 50%;
 }
 
 .navlogo img {
@@ -42,18 +42,17 @@ header {
 
 header .main-text {
   margin: 0% 8% 10% 8%;
-  padding: 50px 0 0 0 ;
+  padding: 50px 0 0 0;
   width: 327px;
   height: 211px;
-} 
-
+}
 
 header .main-text .main-text-blue {
   font-size: 30px;
   font-family: inter;
   font-weight: 700;
   line-height: 52px;
-  color:#172B4D;
+  color:#172B4d;
   text-align: center;
   /* border: 1px solid red; */
   letter-spacing: 0;
@@ -64,20 +63,18 @@ header .main-text .main-text-green {
   font-family: inter;
   font-weight: 700;
   line-height: 52px;
-  color:#36B37E;
+  color:#36B37e;
   text-align: center;
-  /* border: 1px solid red; */
-}
+ }
 
 .intro-text {
   margin: 5% 8% 5% 8%;
-  padding: 10px 0 0 0 ;
+  padding: 10px 0 0 0;
   font-size: 20px;
   font-family: inter;
   font-weight: 400;
   line-height: 28px;
   text-align: center;
-  /* border: 1px solid red; */
 }
 
 .social-media {
@@ -87,8 +84,4 @@ header .main-text .main-text-green {
 
 .social-media img {
   margin-right: 20px;
-}
-
-@media (min-width: 768px) {
-
 }
