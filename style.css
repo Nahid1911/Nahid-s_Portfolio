@@ -6,6 +6,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 @media (min-width: 375px) {
   .menu-button {
     display: flex;
