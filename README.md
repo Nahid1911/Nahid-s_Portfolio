@@ -59,7 +59,7 @@ Nahid-s_Portfolio is a HTML and CSS porject to develop personal portfolio wiith 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-The project not yet deployed.
+The project not yet deployed, so live-demo is unavailable.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,6 +146,6 @@ I would like to thank Microverse for the inspiration to create this portfolio as
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](E:\MV_MainCourse\Module-1\Nahid-s_Portfolio\LICENSE.md) licensed.
+This project is [MIT](E:\MV_MainCourse\Module-1\Nahid-s_Portfolio\LICENSE.md./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
