@@ -6,7 +6,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+@media (min-width: 375px) {
 .menu-button {
   display: flex;
   justify-content: end;
@@ -16,6 +16,8 @@
 .main-container {
   background-image: url(media/header-illsutration-mobile.svg);
   height: 700px;
+  display: flex;
+  justify-content: center;
 }
 
 .main-text {
@@ -62,4 +64,5 @@
 
 .social-media img {
   margin-right: 20px;
+}
 }
