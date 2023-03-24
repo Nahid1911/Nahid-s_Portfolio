@@ -29,9 +29,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Nahid-s_Portfolio] <a name="about-project"></a>
+# 📖 Nahid-s_Portfolio <a name="about-project"></a>
 
-**[Nahid-s_Portfolio]** is a HTML and CSS porject to develop personal portfolio wiith some mandatory features.
+Nahid-s_Portfolio is a HTML and CSS porject to develop personal portfolio wiith some mandatory features.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,9 +49,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Work Showcase]**
-- **[Personal Information]**
-- **[Contact information]**
+- Work Showcase
+- Personal Information
+- Contact information
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,8 +83,6 @@ Clone this repository to your desired folder using the command:
   cd folder_name
   git clone git@github.com:Nahid1911/Nahid-s_Portfolio.git
 ```
---->
-
 ### Usage
 
 After cloning the project you can customize it replacing the personal information with required information:
@@ -102,9 +100,9 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+Collaborators of this project is:
 
-👤 **Author1**
+👤 Mohammad Nahid Raihan Sardar
 
 - GitHub: [@githubhandle](https://github.com/Nahid1911)
 - Twitter: [@twitterhandle](https://twitter.com/Nahid1911)
@@ -116,7 +114,7 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[JavaScript]**
+- [ ] JavaScript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +138,7 @@ If you like this project please show your support by giving stars.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse to inspire to create this portfolio as a part of my learning journey.
+I would like to thank Microverse for the inspiration to create this portfolio as a part of my learning journey.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,6 +146,6 @@ I would like to thank Microverse to inspire to create this portfolio as a part o
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](E:\MV_MainCourse\Module-1\Nahid-s_Portfolio\LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
