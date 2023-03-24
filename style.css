@@ -1,49 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
 
-*{
+* {
   border: 0;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.flex-div{
+.flex-div {
   display: flex;
   justify-content: center;
 }
 
-.mobiledisplay{
+.mobiledisplay  {
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
 }
 
-span{
+span {
   color: black;
-
 }
 
-.navlogo{
-  margin-left: 50%;
-  
+.navlogo {
+  margin-left: 50%;  
 }
 
-.navlogo img{
+.navlogo img {
   margin-right: 10%;
 }
 
-.menue-button{
+.menue-button {
   display: flex;
   justify-content: end;
   margin-right: 10%;
 }
 
-header{
+header {
   background-image: url(media/header-illsutration-mobile.svg);
-  
 }
 
-header .main-text{
+header .main-text {
   margin: 0% 8% 10% 8%;
   padding: 50px 0 0 0 ;
   width: 327px;
@@ -51,7 +48,7 @@ header .main-text{
 } 
 
 
-header .main-text .main-text-blue{
+header .main-text .main-text-blue {
   font-size: 30px;
   font-family: inter;
   font-weight: 700;
@@ -62,7 +59,7 @@ header .main-text .main-text-blue{
   letter-spacing: 0;
 }
 
-header .main-text .main-text-green{
+header .main-text .main-text-green {
   font-size: 40px;
   font-family: inter;
   font-weight: 700;
@@ -72,7 +69,7 @@ header .main-text .main-text-green{
   /* border: 1px solid red; */
 }
 
-.intro-text{
+.intro-text {
   margin: 5% 8% 5% 8%;
   padding: 10px 0 0 0 ;
   font-size: 20px;
@@ -83,15 +80,15 @@ header .main-text .main-text-green{
   /* border: 1px solid red; */
 }
 
-.social-media{
+.social-media {
   display: flex;
   justify-content: center;
 }
 
-.social-media img{
+.social-media img {
   margin-right: 20px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
 
 }
