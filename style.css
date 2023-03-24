@@ -7,48 +7,26 @@
   box-sizing: border-box;
 }
 
-.flex-div {
-  display: flex;
-  justify-content: center;
-}
-
-.mobiledisplay {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 10px;
-}
-
-span {
-  color: black;
-}
-
-.navlogo {
-  margin-left: 50%;
-}
-
-.navlogo img {
-  margin-right: 10%;
-}
-
-.menue-button {
+.menu-button {
   display: flex;
   justify-content: end;
   margin-right: 10%;
 }
 
-header {
+.main-container{
   background-image: url(media/header-illsutration-mobile.svg);
+  height: 700px;
 }
 
-header .main-text {
+.main-text {
   margin: 0% 8% 10% 8%;
-  padding: 50px 0 0 0;
+  padding: 50px 0 0 30px;
   width: 327px;
   height: 211px;
 }
 
-header .main-text .main-text-blue {
-  font-size: 30px;
+.main-text .main-text-blue {
+  font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   line-height: 52px;
@@ -57,8 +35,8 @@ header .main-text .main-text-blue {
   letter-spacing: 0;
 }
 
-header .main-text .main-text-green {
-  font-size: 40px;
+.main-text .main-text-green {
+  font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   line-height: 52px;
@@ -67,7 +45,6 @@ header .main-text .main-text-green {
 }
 
 .intro-text {
-  margin: 5% 8% 5% 8%;
   padding: 10px 0 0 0;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -78,7 +55,9 @@ header .main-text .main-text-green {
 
 .social-media {
   display: flex;
+  align-items: center;
   justify-content: center;
+  list-style: none;
 }
 
 .social-media img {
