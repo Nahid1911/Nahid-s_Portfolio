@@ -146,6 +146,6 @@ I would like to thank Microverse for the inspiration to create this portfolio as
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](E:\MV_MainCourse\Module-1\Nahid-s_Portfolio\LICENSE.md./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
