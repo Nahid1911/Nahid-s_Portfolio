@@ -49,29 +49,28 @@ header .main-text {
 
 header .main-text .main-text-blue {
   font-size: 30px;
-  font-family: inter;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   line-height: 52px;
-  color:#172B4d;
+  color:#172b4d;
   text-align: center;
-  /* border: 1px solid red; */
   letter-spacing: 0;
 }
 
 header .main-text .main-text-green {
   font-size: 40px;
-  font-family: inter;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   line-height: 52px;
-  color:#36B37e;
+  color: #36b37e;
   text-align: center;
- }
+}
 
 .intro-text {
   margin: 5% 8% 5% 8%;
   padding: 10px 0 0 0;
   font-size: 20px;
-  font-family: inter;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   line-height: 28px;
   text-align: center;
