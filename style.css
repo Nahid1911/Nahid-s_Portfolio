@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 @media (min-width: 375px) {
@@ -84,6 +84,12 @@
     list-style: none;
   }
 
+  .project-preview img {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+  }
+
   .main-text .social-media img {
     margin-right: 20px;
   }
@@ -123,12 +129,6 @@
 
   .project-preview {
     display: flex;
-  }
-
-  .project-preview img {
-    width:100%;
-    height: 250px;
-    border-radius: 8px;
   }
 
   .work-history {
@@ -251,7 +251,9 @@
     width: 100%;
   }
 
-  .language, .frameworks, .skills {
+  .language,
+  .frameworks,
+  .skills {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -262,7 +264,9 @@
     margin: 20px;
   }
 
-  .lang-list ul, .fwor-list ul, .skills-list ul {
+  .lang-list ul,
+  .fwor-list ul,
+  .skills-list ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,7 +275,9 @@
     flex-wrap: wrap;
   }
 
-  .lang-list ul li, .fwor-list ul li, .skills-list ul li {
+  .lang-list ul li,
+  .fwor-list ul li,
+  .skills-list ul li {
     list-style-type: none;
     background-color: #fff;
     padding: 5px;
