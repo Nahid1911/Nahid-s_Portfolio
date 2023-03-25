@@ -80,7 +80,7 @@
     justify-content: center;
     flex-direction: column;
     margin: 30%;
-    }
+  }
 
   .my-work-text h2 {
     display: flex;
@@ -137,7 +137,7 @@
   }
 
   .about-me-text button {
-    padding: 12;
+    padding: 12px;
     gap: 1opx;
     width: 153px;
     height: 48px;
@@ -150,7 +150,7 @@
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: #fff;
   }
 
   .skills {
@@ -170,13 +170,13 @@
 
   .contact-info h2 {
     display: flex;
-    flex-direction: column  ;
+    flex-direction: column;
     text-align: center;
     gap: 24px;
     width: 327px;
     line-height: 32px;
   }
- 
+
   .contact-info .full-name {
     display: flex;
     width: 100%;
@@ -212,7 +212,7 @@
 
   .input-fields button {
     padding: 12;
-    gap: 1opx;
+    gap: 10px;
     width: 153px;
     height: 48px;
     background-color: #36b37f;
@@ -223,7 +223,7 @@
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: #fff;
     margin-left: 30%;
   }
 
