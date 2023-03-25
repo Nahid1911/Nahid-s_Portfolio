@@ -16,16 +16,18 @@
 
   .main-container {
     background-image: url(media/header-illsutration-mobile.svg);
-    height: 700px;
-    display: flex;
+    height: 100vh;
+    display: block;
     justify-content: center;
+    align-items: center;
+    max-width: 375px;
   }
 
   .main-text {
     margin: 0% 8% 10% 8%;
-    padding: 50px 0 0 30px;
+    padding: 50px 30px 0 30px;
     width: 327px;
-    height: 211px;
+    height: 100%;
   }
 
   .main-text .main-text-blue {
@@ -47,7 +49,7 @@
     text-align: center;
   }
 
-  .intro-text {
+  .main-text .intro-text {
     padding: 10px 0 0 0;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -56,14 +58,188 @@
     text-align: center;
   }
 
-  .social-media {
+  .main-text .social-media {
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
   }
 
-  .social-media img {
+  .main-text .social-media img {
     margin-right: 20px;
   }
+
+  .main-text .disable-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .my-work-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30%;
+    }
+
+  .my-work-text h2 {
+    display: flex;
+    font-weight: 700;
+    font-size: 30px;
+    color: #172b4d;
+    text-align: center;
+    gap: 24px;
+  }
+
+  .my-work-text hr {
+    border: 2px solid #36b37e;
+    background-color: #36b37e;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 0% 50% 0% 50%;
+  }
+
+  .work-history {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 144px 24px;
+    gap: 24px;
+  }
+
+  /* .about-me-text {
+    text-align: center;
+  }
+
+  .about-me-text h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    align-items: center;
+    color: #172b4d;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .about-me-text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    color: #42526e;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .about-me-text button {
+    padding: 12;
+    gap: 1opx;
+    width: 153px;
+    height: 48px;
+    background-color: #36b37f;
+    border-radius: 4px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 144px 24px;
+    gap: 24px;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    margin: 144px 24px;
+    gap: 24px;
+  }
+
+  .contact-info h2 {
+    display: flex;
+    flex-direction: column  ;
+    text-align: center;
+    gap: 24px;
+    width: 327px;
+    line-height: 32px;
+  }
+ 
+  .contact-info .full-name {
+    display: flex;
+    width: 100%;
+    border: 1px solid #6b77bc;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 10px;
+  }
+
+  .contact-info .email-address {
+    display: flex;
+    width: 100%;
+    border: 1px solid #6b77bc;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 10px;
+  }
+
+  .contact-info .details-text {
+    display: flex;
+    width: 100%;
+    border: 1px solid #6b77bc;
+    border-radius: 5px;
+    height: 114px;
+    padding-left: 10px;
+  }
+
+  .input-fields {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+  }
+
+  .input-fields button {
+    padding: 12;
+    gap: 1opx;
+    width: 153px;
+    height: 48px;
+    background-color: #36b37f;
+    border-radius: 4px;
+    flex: none;
+    flex-grow: 0;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin-left: 30%;
+  }
+
+  .about-me-text button:hover {
+    background-color: #0a2759;
+  }
+
+  .input-fields button:hover {
+    background-color: #0a2759;
+  }
+
+  .about-me-text button:active {
+    background-color: #dd5153;
+  }
+
+  .input-fields button:active {
+    background-color: #dd5153;
+  } */
 }
