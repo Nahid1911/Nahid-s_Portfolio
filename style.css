@@ -292,7 +292,7 @@
     padding: 10px;
     width: 327px;
     height: 363px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -302,7 +302,7 @@
     margin-bottom: 50px;
   }
 
-  .contact-info .input-elements form{
+  .contact-info .input-elements form {
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -348,8 +348,8 @@
     justify-content: space-around;
     margin-top: 20px;
   }
-
-  .foot-design li {
+  
+  .foot-design ul li {
     margin-right: 20px;
   }
 
@@ -357,5 +357,4 @@
     display: inline;
     justify-content: center;
   }
- 
 }
