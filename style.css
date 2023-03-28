@@ -168,15 +168,8 @@
   .project-tags {
     list-style-type: none;
     list-style-position: inside;
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; */
-    /* padding: 16px; */
     gap: 8px;
     height: 16px;
-    /* position: relative;
-    white-space: nowrap; */
   }
 
   .project-tags li {
@@ -248,7 +241,6 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 24px;
-    border: 1px solid green;
     margin: 30px 20px;
     width: 100%;
   }
@@ -261,7 +253,6 @@
     justify-content: center;
     align-items: center;
     background-color: #dee5f0;
-    border: 1px solid red;
     border-radius: 10px;
     margin: 20px;
   }
@@ -288,5 +279,83 @@
     margin-top: 10px;
     color: #36b37e;
     white-space: nowrap;
+    font-weight: 300;
   }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+  }
+
+  .contact-info h2 {
+    padding: 10px;
+    width: 327px;
+    height: 363px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+    margin-bottom: 50px;
+  }
+
+  .contact-info .input-elements form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .input-elements form input {
+    border: 1px solid #d0d9d4;
+    padding: 16px;
+    border-radius: 5px;
+  }
+
+  .input-elements form textarea {
+    border: 1px solid #60c095;
+    padding: 16px;
+    border-radius: 5px;
+    height: 114px;
+  }
+
+  .input-elements form .btn-submitContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .email a {
+    text-decoration: none;
+  }
+
+  .email p {
+    text-align: center;
+    text-decoration: none;
+    color: #42526e;
+  }
+
+  .foot-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .foot-design ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .foot-design li {
+    margin-right: 20px;
+  }
+
+  .footer-bottomLine {
+    display: inline;
+    justify-content: center;
+  }
+ 
 }
