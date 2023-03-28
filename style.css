@@ -341,14 +341,14 @@
     flex-direction: column;
     align-items: center;
   }
-  
+
   .foot-design ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
   }
-  
+
   .foot-design ul li {
     margin-right: 20px;
   }
