@@ -168,21 +168,23 @@
   .project-tags {
     list-style-type: none;
     list-style-position: inside;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    padding: 16px;
+    justify-content: center; */
+    /* padding: 16px; */
     gap: 8px;
     height: 16px;
-    position: relative;
-    white-space: nowrap;
+    /* position: relative;
+    white-space: nowrap; */
   }
 
   .project-tags li {
     background-color: #ebf0ee;
-    padding: 2px;
+    padding: 5px;
     border-radius: 5px;
+    float: left;
+    margin-right: 5px;
   }
 
   .project button {
@@ -286,68 +288,5 @@
     margin-top: 10px;
     color: #36b37e;
     white-space: nowrap;
-  }
-
-  .contact-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-  }
-
-  .contact-info h2 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 24px;
-    width: 327px;
-    line-height: 32px;
-  }
-
-  .contact-info .full-name {
-    display: block;
-    width: 100%;
-    border: 1px solid #6b77bc;
-    border-radius: 5px;
-    height: 40px;
-    padding-left: 10px;
-  }
-
-  .contact-info .email-address {
-    display: block;
-    width: 100%;
-    border: 1px solid #6b77bc;
-    border-radius: 5px;
-    height: 40px;
-    padding-left: 10px;
-  }
-
-  .contact-info .details-text {
-    display: block;
-    width: 100%;
-    border: 1px solid #6b77bc;
-    border-radius: 5px;
-    height: 114px;
-    padding-left: 10px;
-  }
-
-  .input-fields {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .input-fields .btn-input {
-    display: flex;
-  }
-
-  .btn-all:hover {
-    background-color: #0a2759;
-  }
-
-  .btn-all:active {
-    background-color: #dd5153;
   }
 }
