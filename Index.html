@@ -11,8 +11,6 @@
     
     <header class="header-cover">
       <img class="menu-button" src="media/Enabled.svg" alt="menu bar">
-      <!-- <img class="big-back-ground" src="media/Header-background-desktop.svg" alt="menu bar"> -->
-
     </header>
     <nav class="nav-bar">
       <ul class="nav-bar-ul">
@@ -44,8 +42,9 @@
          
          
         </ul>
-
-        <a class="disable-button"><img src="media/Disabled.svg" alt=""></a>
+        <div class="disable-img">
+          <a class="disable-button"><img src="media/Disabled.svg" alt=""></a>
+        </div>
  
       </div>
       <section class="work-container">
@@ -249,7 +248,11 @@
         </div>
         <div class="input-elements">
           <form action="https://formspree.io/f/meqwrjvl" method="post">
-            <input type="text" id="fname" name="fname" placeholder="Full Name" maxlength="30" required><br>
+            <input type="text" class="full-name" id="fname" name="fname" placeholder="Full Name" maxlength="30" required><br>
+            <div class="first-last-name">
+              <input type="text" class="first-name" id="fname" name="fname" placeholder="First Name" maxlength="30" required><br>
+              <input type="text" class="last-name" id="fname" name="fname" placeholder="Last Name" maxlength="30" required>
+            </div><br>
             <input type="email" id="email" name="_replyto" placeholder="Enter email" required><br>
             <textarea name="message" id="Opinion" maxlength="500" placeholder="Write me something..." required></textarea>
             <div class="btn-submitContainer">
