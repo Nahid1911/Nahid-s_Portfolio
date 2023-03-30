@@ -506,7 +506,7 @@
     grid-template-rows: 1fr 1fr;
     gap: 10px;
     width: 100%;
-    height:auto;
+    height: auto;
     left: 135px;
     top: 1059px;
   }
@@ -702,7 +702,6 @@
     align-items: first baseline;
     gap: 5px;
     height: 74px;
-    flex-wrap: wrap;
     width: 100%;
   }
 
@@ -812,11 +811,9 @@
     display: none;
   }
 
-  
   .nav-bar-ul li:hover {
     background-color: #36b37e;
     color: #fff;
     border-radius: 10px;
   }
-
 }
