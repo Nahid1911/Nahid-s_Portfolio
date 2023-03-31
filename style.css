@@ -427,6 +427,13 @@
     line-height: 20px;
     color: #344563;
     text-align: center;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .nav-bar-ul li:hover {
+    background-color: #36b37e;
+    color: #fff;
+    border-radius: 10px;
   }
 
   .main-container {
@@ -653,7 +660,7 @@
     animation: btn-animation  2s;
   }
 
-  @keyframes btn-animation{
+  @keyframes btn-animation {
     100%{
       background-color: purple;
     }
@@ -839,15 +846,5 @@
 
   .footer-bottomLine {
     display: none;
-  }
-
-  .nav-bar-ul li {
-    transition: 0.5s ease-in-out;
-  }
-
-  .nav-bar-ul li:hover {
-    background-color: #36b37e;
-    color: #fff;
-    border-radius: 10px;
   }
 }
