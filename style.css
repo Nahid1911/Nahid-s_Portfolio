@@ -616,6 +616,33 @@
     margin-top: 20px;
   }
 
+  .btn-all:hover {
+    padding: 12px;
+    gap: 10px;
+    width: 153px;
+    height: 48px;
+    background-color:#36b37f;
+    border-radius: 4px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    margin-top: 20px;
+    animation: btn-animation  2s;
+  }
+
+  @keyframes btn-animation{
+    100%{
+      background-color: purple;
+
+    }
+  
+  }
+
   .about-me {
     display: flex;
     flex-direction: column;
