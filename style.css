@@ -798,14 +798,17 @@
     display: none;
   }
 
-  /* .nav-bar-ul li:hover {
-    background-color: #36b37e;
-    color: #fff;
+  .nav-bar-ul li {
+    transition: 0.5s ease-in-out;
+  }
+
+  .nav-bar-ul li:hover {
+    text-shadow: 2px 7px 5px rgba(228, 155, 155, 0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+    background-color: #36b37e; 
+    padding: 10px;
     border-radius: 10px;
-    padding: 10px 12px;
-    font-size: 15px;
-    font-weight: 600;
-  } */
+  }
 
   .main-text-blue:hover {
     font-size: 50px;
