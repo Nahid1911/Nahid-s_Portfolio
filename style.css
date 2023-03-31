@@ -623,7 +623,7 @@
     gap: 10px;
     width: 153px;
     height: 48px;
-    background-color:#36b37f;
+    background-color: #36b37f;
     border-radius: 4px;
     flex: none;
     order: 2;
@@ -638,7 +638,7 @@
   }
 
   @keyframes btn-animation {
-    100%{
+    100% {
       background-color: purple;
     }
   }
@@ -830,5 +830,4 @@
     color: #fff;
     border-radius: 10px;
   }
-
 }
