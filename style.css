@@ -495,26 +495,9 @@
 
   .social-media li {
     padding: 8px;
-    animation: socialmedia 2s ;
+    animation: socialmedia 2s;
   }
-
-  @keyframes socialmedia {
-    0%{
-      padding: 8px;
-    }
-
-    50% {
-      padding: 10px;
-      background-color: pink;
-    }
-
-    100%{
-      padding: 12px;
-      background-color: #36b37e;
-    }
-    
-  }
-
+  
   .work-container {
     width: 100%;
     margin: 25% 0 0 0;
