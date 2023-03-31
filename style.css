@@ -430,12 +430,6 @@
     transition: 0.5s ease-in-out;
   }
   
-  .nav-bar-ul li:hover {
-    background-color: #36b37e;
-    color: #fff;
-    border-radius: 10px;
-  }
-
   .main-container {
     display: block;
     justify-content: center;
@@ -497,7 +491,7 @@
     padding: 8px;
     animation: socialmedia 2s;
   }
-  
+
   .work-container {
     width: 100%;
     margin: 25% 0 0 0;
@@ -830,4 +824,11 @@
   .footer-bottomLine {
     display: none;
   }
+
+  .nav-bar-ul li:hover {
+    background-color: #36b37e;
+    color: #fff;
+    border-radius: 10px;
+  }
+
 }
