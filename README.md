@@ -59,7 +59,8 @@ Nahid-s_Portfolio is a HTML and CSS porject to develop personal portfolio wiith 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-The project not yet deployed, so live-demo is unavailable.
+You can find the live demo in the following link:
+https://nahid1911.github.io/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
