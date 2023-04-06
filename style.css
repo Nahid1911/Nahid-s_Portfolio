@@ -270,7 +270,7 @@
     width: 100%;
   }
 
-  .language,
+  .languages,
   .frameworks,
   .skills {
     display: flex;
@@ -280,6 +280,7 @@
     background-color: #dee5f0;
     border-radius: 10px;
     margin: 20px;
+    padding-bottom: 10px;
   }
 
   .lang-list ul,
@@ -729,6 +730,7 @@
     background-color: #dee5f0;
     border-radius: 10px;
     width: 100%;
+    padding-bottom: 15px;
   }
 
   .lang-list ul,
