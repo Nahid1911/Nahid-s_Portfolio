@@ -754,7 +754,8 @@
     margin-top: 10px;
     color: #04643c;
     white-space: nowrap;
-    font-weight: 300;
+    font-weight: 600;
+    font-size: 10px;
   }
 
   .contact-info {
