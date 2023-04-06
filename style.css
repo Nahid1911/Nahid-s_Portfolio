@@ -270,7 +270,7 @@
     width: 100%;
   }
 
-  .language,
+  .languages,
   .frameworks,
   .skills {
     display: flex;
@@ -280,6 +280,7 @@
     background-color: #dee5f0;
     border-radius: 10px;
     margin: 20px;
+    padding-bottom: 10px;
   }
 
   .lang-list ul,
@@ -450,8 +451,8 @@
   .main-text-blue {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 20px;
+    line-height: 40px;
     color: #172b4d;
     text-align: center;
     letter-spacing: 0.37px;
@@ -460,9 +461,9 @@
 
   .main-text-blue:hover {
     font-family: "Inter", Arial, Helvetica, sans-serif;
-    font-weight: 800;
-    font-size: 60px;
-    line-height: 60px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
     color: #d30e0e;
     text-align: center;
     letter-spacing: 0.37px;
@@ -472,12 +473,12 @@
   .main-text-green {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-weight: 800;
-    font-size: 48px;
-    line-height: 60px;
-    color: #36b37e;
+    font-size: 30px;
+    line-height: 40px;
+    color: #055f3b;
     text-align: center;
     letter-spacing: 0.37px;
-    margin-top: -30px;
+    margin-top: -20px;
   }
 
   .intro-text {
@@ -506,7 +507,7 @@
 
   .work-container {
     width: 100%;
-    margin: 25% 0 0 0;
+    margin: 15% 0 0 0;
   }
 
   .work-history {
@@ -617,7 +618,7 @@
     gap: 10px;
     width: 153px;
     height: 48px;
-    background-color: #36b37f;
+    background-color: #027948;
     border-radius: 4px;
     flex: none;
     order: 2;
@@ -729,6 +730,7 @@
     background-color: #dee5f0;
     border-radius: 10px;
     width: 100%;
+    padding-bottom: 15px;
   }
 
   .lang-list ul,
@@ -752,15 +754,16 @@
     border-radius: 5px;
     font-size: x-small;
     margin-top: 10px;
-    color: #36b37e;
+    color: #04643c;
     white-space: nowrap;
-    font-weight: 300;
+    font-weight: 600;
   }
 
   .contact-info {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-bottom: 100px;
   }
 
   .paragraph {
@@ -820,12 +823,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-top: 1px solid rgb(187, 234, 236);
+    margin-bottom: 30px;
   }
 
   .foot-design ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 20px;
   }
 
