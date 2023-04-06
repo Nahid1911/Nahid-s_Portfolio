@@ -506,7 +506,7 @@
 
   .work-container {
     width: 100%;
-    margin: 2% 0 0 0;
+    margin: 15% 0 0 0;
   }
 
   .work-history {
@@ -761,6 +761,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-bottom: 100px;
   }
 
   .paragraph {
