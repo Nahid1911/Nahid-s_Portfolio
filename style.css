@@ -31,15 +31,16 @@
   }
 
   .menue-button-pressed {
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  padding-left: 5%;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-  height: 100vh;
-  width: 100%;box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding-left: 5%;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    height: 100vh;
+    width: 100%;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   }
 
   .menu-button {
@@ -47,9 +48,9 @@
   }
 
   .nav-bar a {
-   text-decoration: none;
-   list-style: none;
-   color: #3a4a42;
+    text-decoration: none;
+    list-style: none;
+    color: #3a4a42;
   }
 
   .nav-bar a li {
@@ -224,6 +225,24 @@
     height: 16px;
   }
 
+  .foot-design ul li {
+    margin-right: 20px;
+  }
+
+  .lang-list ul li,
+  .fwor-list ul li,
+  .skills-list ul li {
+    list-style-type: none;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: x-small;
+    margin-top: 10px;
+    color: #36b37e;
+    white-space: nowrap;
+    font-weight: 300;
+  }
+
   .project-info .project-tags li {
     background-color: #ebf0ee;
     padding: 5px;
@@ -322,20 +341,6 @@
     flex-wrap: wrap;
   }
 
-  .lang-list ul li,
-  .fwor-list ul li,
-  .skills-list ul li {
-    list-style-type: none;
-    background-color: #fff;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: x-small;
-    margin-top: 10px;
-    color: #36b37e;
-    white-space: nowrap;
-    font-weight: 300;
-  }
-
   .contact-info {
     display: flex;
     flex-direction: column;
@@ -403,10 +408,6 @@
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-  }
-
-  .foot-design ul li {
-    margin-right: 20px;
   }
 
   .footer-bottomLine {
