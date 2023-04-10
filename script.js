@@ -4,7 +4,7 @@ function displayFunction() {
   const menuList = document.getElementById('nav-menu');
   if (menuList.classList.contains('menue-button-pressed') === false) {
     menuList.classList.add('menue-button-pressed');
-} else { menuList.classList.remove('menue-button-pressed'); }
+  } else { menuList.classList.remove('menue-button-pressed'); }
   const menuIcon = document.getElementById('mobile-menu');
   const menuIconArrtibute = menuIcon.getAttribute('src');
   const image1 = 'media/Hamberger_menu_icon.svg';
