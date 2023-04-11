@@ -10,13 +10,13 @@
   <body class="body-area">
     
     <header class="header-cover">
-      <img class="menu-button" src="media/Enabled.svg" alt="menu bar">
+      <img id="mobile-menu" class="menu-button" src="media/Hamberger_menu_icon.svg" alt="menu bar">
     </header>
-    <nav class="nav-bar">
-      <ul class="nav-bar-ul">
-        <a href="#"><li>Portoflio</li></a>
-        <a href="#"><li>About</li></a>
-        <a href="#"><li>Contact</li></a>
+    <nav id="nav-menu" class="nav-bar">
+      <ul id = "navUlBar" class="nav-bar-ul">
+        <a href="#portfolio"><li id="portfolio-li">Portoflio</li></a>
+        <a href="#about"><li id="about-li">About</li></a>
+        <a href="#contact"><li id="contact-li">Contact</li></a>
       </ul>
     </nav>
     <main class="main-container">
@@ -49,7 +49,7 @@
       </div>
       <section class="work-container">
         <div class="my-work-text">
-          <div class="my-work-text-heading">
+          <div id="portfolio" class="my-work-text-heading">
             <h2>My Recent Works</h2>
           </div>
           <div class="hr-line">
@@ -174,7 +174,7 @@
           
         </div>
       </section>
-      <section class="about-me">
+      <section id="about" class="about-me">
         <div class="about-me-text">
           <h2>About me</h2>
           <div class="about-p">
@@ -188,7 +188,7 @@
           </div>
         </div>
         <div class="about-skills">
-          <div class="language">
+          <div class="languages">
             <div class="lang-img">
               <img src="media/language_Icons.svg" alt="Language Thumbnail">
             </div>
@@ -240,7 +240,7 @@
           </div>
         </div>
       </section>
-      <section class="contact-info">
+      <section id="contact" class="contact-info">
         <div class="paragraph">
           <p>I'm always interested in hearing about new projects, so if you'd l
              ike to chat please get in touch.
@@ -283,6 +283,9 @@
         <img src="media/Light.svg" alt="" class="src">
       </div>
     </footer>
+    <script src="script.js">
+
+    </script>
 
  </body>
 </html>
