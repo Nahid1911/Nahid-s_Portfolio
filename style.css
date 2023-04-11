@@ -21,44 +21,12 @@
 
   .header-cover {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 6%;
-    background-color: transparent;
-    position: fixed;
-    width: 100vw;
+    justify-content: end;
+    margin-right: 10%;
   }
 
   .nav-bar {
     display: none;
-  }
-
-  .menue-button-pressed {
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    padding-left: 5%;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 44px;
-    height: 100vh;
-    width: 100%;
-    padding-top: 20px;
-    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-    transition: 5s ease-out;
-  }
-
-  .menu-button {
-    cursor: pointer;
-  }
-
-  .nav-bar a {
-    text-decoration: none;
-    list-style: none;
-    color: #3a4a42;
-  }
-
-  .nav-bar a li {
-    padding-top: 20px;
   }
 
   .main-container {
@@ -74,16 +42,15 @@
   .btn-all {
     padding: 12px;
     gap: 10px;
-    width: auto;
+    width: 153px;
     height: 48px;
-    background-color: #027948;
+    background-color: #36b37f;
     border-radius: 4px;
     flex: none;
     order: 2;
     flex-grow: 0;
     font-weight: 500;
-    font-size: 15px;
-    text-align: center;
+    font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #fff;
@@ -216,41 +183,20 @@
     bottom: 0;
     border-radius: 8px;
     position: relative;
-    font-size: 24px;
+    size: 24px;
     line-height: 32px;
-    font-weight: 600;
+    width: 600;
     margin: 10px;
   }
 
   .project-tags {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     list-style-type: none;
     list-style-position: inside;
     gap: 8px;
     height: 16px;
   }
 
-  .foot-design ul li {
-    margin-right: 20px;
-  }
-
-  .lang-list ul li,
-  .fwor-list ul li,
-  .skills-list ul li {
-    list-style-type: none;
-    background-color: #fff;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: x-small;
-    margin-top: 10px;
-    color: #36b37e;
-    white-space: nowrap;
-    font-weight: 300;
-  }
-
-  .project-info .project-tags li {
+  .project-tags li {
     background-color: #ebf0ee;
     padding: 5px;
     border-radius: 5px;
@@ -312,7 +258,7 @@
   .about-me-text button {
     flex: none;
     white-space: nowrap;
-    width: 154px;
+    width: 122px;
   }
 
   .about-skills {
@@ -348,6 +294,20 @@
     flex-wrap: wrap;
   }
 
+  .lang-list ul li,
+  .fwor-list ul li,
+  .skills-list ul li {
+    list-style-type: none;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: x-small;
+    margin-top: 10px;
+    color: #36b37e;
+    white-space: nowrap;
+    font-weight: 300;
+  }
+
   .contact-info {
     display: flex;
     flex-direction: column;
@@ -371,14 +331,13 @@
   .contact-info .input-elements form {
     display: flex;
     flex-direction: column;
-    align-items: self-start;
+    align-items: left;
   }
 
   .input-elements form input {
     border: 1px solid #d0d9d4;
     padding: 16px;
     border-radius: 5px;
-    width: 100%;
   }
 
   .input-elements form textarea {
@@ -386,7 +345,6 @@
     border-radius: 5px;
     height: 114px;
     border: 1px solid #60c095;
-    width: 100%;
   }
 
   .input-elements form .btn-submitContainer {
@@ -415,6 +373,10 @@
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+  }
+
+  .foot-design ul li {
+    margin-right: 20px;
   }
 
   .footer-bottomLine {
@@ -609,9 +571,9 @@
     bottom: 0;
     border-radius: 8px;
     position: relative;
-    font-size: 24px;
+    size: 24px;
     line-height: 32px;
-    font-weight: 600;
+    width: 600;
     margin: 10px;
   }
 
@@ -690,7 +652,7 @@
 
   @keyframes btn-animation {
     100% {
-      background-color: #1e488f;
+      background-color: purple;
     }
   }
 
@@ -831,14 +793,13 @@
   .contact-info .input-elements form {
     display: flex;
     flex-direction: column;
-    align-items: self-start;
+    align-items: left;
   }
 
   .input-elements form input {
     border: 1px solid #d0d9d4;
     padding: 16px;
     border-radius: 5px;
-    width: 100%;
   }
 
   .input-elements form textarea {
@@ -846,7 +807,6 @@
     padding: 16px;
     border-radius: 5px;
     height: 114px;
-    width: 100%;
   }
 
   .email a {
