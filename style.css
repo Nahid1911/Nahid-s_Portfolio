@@ -423,6 +423,8 @@
   }
 }
 
+/* -----desktop version------ */
+
 @media (min-width: 768px) {
   .body-area {
     background-image: url(media/Header-llustration-desktopHeader.svg);
