@@ -14,3 +14,5 @@ function displayFunction() {
   menuIcon.setAttribute('src', newSer);
 }
 mobileMenu.addEventListener('click', displayFunction);
+
+// Mobile Menu disappear after clicking
