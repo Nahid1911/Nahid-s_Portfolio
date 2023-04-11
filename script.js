@@ -15,20 +15,3 @@ function displayFunction() {
   menuIcon.setAttribute('src', newSer);
 }
 mobileMenu.addEventListener('click', displayFunction);
-
-// Menu disapear when click on any Item on the menu
-
-const menuItemPortfolio = document.getElementById('portfolio-li');
-const menuItemAbout = document.getElementById('about-li');
-const menuItemContact = document.getElementById('contact-li');
-menuItemPortfolio.addEventListener('click', menuDisappear)
-menuItemAbout.addEventListener('click', menuDisappear)
-menuItemContact.addEventListener('click', menuDisappear)
-
-function menuDisappear() {
-  const menuList = document.getElementById('nav-menu');
-  menuList.classList.remove('menue-button-pressed');
-  document.getElementById('mobile-menu').setAttribute('src', 'media/Hamberger_menu_icon.svg');
-}
-
-
