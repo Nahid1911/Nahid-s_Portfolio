@@ -20,12 +20,13 @@ mobileMenu.addEventListener('click', displayFunction);
 const menuItemPortfolio = document.getElementById('portfolio-li');
 const menuItemAbout = document.getElementById('about-li');
 const menuItemContact = document.getElementById('contact-li');
-menuItemPortfolio.addEventListener('click', menuDisappear)
-menuItemAbout.addEventListener('click', menuDisappear)
-menuItemContact.addEventListener('click', menuDisappear)
 
 function menuDisappear() {
   const menuList = document.getElementById('nav-menu');
   menuList.classList.remove('menue-button-pressed');
   document.getElementById('mobile-menu').setAttribute('src', 'media/Hamberger_menu_icon.svg');
 }
+
+menuItemPortfolio.addEventListener('click', menuDisappear);
+menuItemAbout.addEventListener('click', menuDisappear);
+menuItemContact.addEventListener('click', menuDisappear);
