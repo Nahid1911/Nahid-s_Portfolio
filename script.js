@@ -31,9 +31,73 @@ menuItemPortfolio.addEventListener('click', menuDisappear);
 menuItemAbout.addEventListener('click', menuDisappear);
 menuItemContact.addEventListener('click', menuDisappear);
 
-let projectInfo1 = {
-  projectName: 'Keeping track of hundreds of components',
-   projectDescriptionP1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
-   projImage: "", projTechno1: "Ruby on Rails", projTechno2: "CSS", projTechno3: "JavaScript",
-   linkToLive: "", linkToSource: ""
+//  ----Mobile Popup Window ----
+
+// let projectInfo1 = {
+//   projectName: 'Keeping track of hundreds of components',
+//    projectDescriptionP1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
+//    projImage: '', projTechno1: 'Ruby on Rails', projTechno2: 'CSS', projTechno3: 'JavaScript',
+//    linkToLive: '', linkToSource: ''
+// }
+
+let firstProjectBtn = document.getElementById('firstProject');
+function firstProPopUp() {
+  let firstProCardPopup = document.getElementById('firstProCard');
+  let div1 = document.createElement('div');
+  div1.id = "mainContainerID";
+  div1.className = "mainContainer"
+  let firstChildDiv1 = document.createElement('div')
+  firstChildDiv1.className = "mainContainerL2";
+  // firstChildDiv1.innerHTML = '<p>Hello World<p>'
+  let clildren1OffirstChild = document.createElement('div')
+  clildren1OffirstChild.className = "clildren1";
+  // clildren1OffirstChild.innerHTML = '<p>Hello World<p>'
+  let clildren2OffirstChild = document.createElement('div')
+  clildren2OffirstChild.className = "clildren2";
+  clildren2OffirstChild.innerHTML = '<h2>Keeping track of hundreds of components</h2>'
+  let ulChildren2 = document.createElement('ul');
+  ulChildren2.className = "ulChildren2Class";
+  let li1UlChildren2 = document.createElement('li')
+  li1UlChildren2.className = "liUlChildren2Class";
+  li1UlChildren2.innerText = 'Ruby on Rails';
+  let li2UlChildren2 = document.createElement('li')
+  li2UlChildren2.className = "liUlChildren2Class";
+  li2UlChildren2.innerText = 'CSS';
+  let li3UlChildren2 = document.createElement('li')
+  li3UlChildren2.className = "liUlChildren2Class";
+  li3UlChildren2.innerText = 'JavaScript';
+  let clildren3OffirstChild = document.createElement('div')
+  clildren3OffirstChild.className = "clildren3";
+  clildren3OffirstChild.innerHTML = '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p> <br> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>'
+  let clildren4OffirstChild = document.createElement('div')
+  clildren4OffirstChild.className = "clildren4";
+  let btn1 = document.createElement("button")
+  btn1.innerHTML = "See live";
+  btn1.className = "btn-all"
+  let btn1Img = document.createElement('img');
+  btn1Img.src= 'media/Popup_img_Mobile_btn.svg';
+  
+  let btn2 = document.createElement("button");
+  btn2.innerHTML = "See source";
+  btn2.className = "btn-all";
+  let btn2Img = document.createElement('img');
+  btn2Img.src= 'media/Popup_img_mobile_btn_GitHub.svg';
+
+  // clildren4OffirstChild.innerHTML = '<p>Hello World</p>'
+  ulChildren2.appendChild(li3UlChildren2);
+  ulChildren2.appendChild(li2UlChildren2);
+  ulChildren2.appendChild(li1UlChildren2);
+  clildren2OffirstChild.appendChild(ulChildren2)
+  btn1.appendChild(btn1Img);
+  btn2.appendChild(btn2Img);
+  clildren4OffirstChild.appendChild(btn1)
+  clildren4OffirstChild.appendChild(btn2)
+  firstChildDiv1.appendChild(clildren1OffirstChild);
+  firstChildDiv1.appendChild(clildren2OffirstChild);
+  firstChildDiv1.appendChild(clildren3OffirstChild);
+  firstChildDiv1.appendChild(clildren4OffirstChild);
+  div1.appendChild(firstChildDiv1)
+  firstProCardPopup.appendChild(div1);
 }
+
+firstProjectBtn.addEventListener('click', firstProPopUp);
