@@ -21,11 +21,13 @@
 
   .header-cover {
     display: flex;
-    justify-content: end;
-    padding-right: 10%;
-    background-color: #fff;
+    justify-content: flex-end;
+    padding-right: 6%;
+    background-color: transparent;
+    position: fixed;
+    width: 100vw;
   }
-
+  
   .nav-bar {
     display: none;
   }
@@ -40,7 +42,9 @@
     line-height: 44px;
     height: 100vh;
     width: 100%;
+    padding-top: 20px;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    transition: 5s ease-out;
   }
 
   .menu-button {
@@ -219,6 +223,9 @@
   }
 
   .project-tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
     list-style-position: inside;
     gap: 8px;
