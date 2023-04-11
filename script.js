@@ -1,5 +1,4 @@
-
-//for mobile menu appear and disappear
+// for mobile menu appear and disappear
 const mobileMenu = document.getElementById('mobile-menu');
 
 function displayFunction() {
