@@ -39,11 +39,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     /* left: initial;
     right: inherit; */
+
     /* top: 0; */
+
     /* transform: scale(0.1); */
+
     /* visibility: hidden; */
+
     /* transition: transform 0.4s, top 0.4s; */
   }
 
@@ -110,10 +115,9 @@
   }
 
   .ulChildren2Class li {
-    background-color:#ebf0ee ;
+    background-color: #ebf0ee;
     padding: 5px;
     border-radius: 5px;
-
   }
 
   .clildren3 p {
@@ -123,7 +127,7 @@
   .clildren4 {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     gap: 10px;
     width: 100%;
   }
@@ -143,6 +147,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+
     /* cursor: pointer; */
   }
 
@@ -151,7 +156,6 @@
     justify-content: center;
     align-items: center;
     background-color: #fff;
-
     border-radius: 10px;
   }
 
@@ -211,7 +215,7 @@
     letter-spacing: 0.03em;
     color: #fff;
     margin-top: 20px;
-    cursor: pointer;;
+    cursor: pointer;
   }
 
   .main-text {
@@ -1024,29 +1028,40 @@
     display: flex;
     flex-direction: column;
     top: -80px
+
     /* width: 100%; */
+
     /* height: 100%; */
+
     /* top: 0; */
+
     /* transform: scale(0.1); */
+
     /* visibility: hidden; */
+
     /* transition: transform 0.4s, top 0.4s; */
   }
 
   .mainContainerL2 {
     display: grid;
+
     /* flex-direction: column;
     align-items: center; */
     justify-content: center;
     grid-template-columns: 1fr 1fr;
+
     /* grid-template-rows: 1fr; */
     background-color: #fff;
     margin: 10%;
     border-radius: 10px;
     width: 80%;
+
     /* height: 1169px; */
     top: 122px;
+
     /* position: relative; */
     padding: 20px 20px 20px 20px;
+
     /* border: 2px solid green; */
   }
 
@@ -1055,18 +1070,27 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+
     /* width: 100%; */
     height: 725px;
     border-radius: 10px;
     order: 1;
+
     /* position: relative; */
+
     /* border: 2px solid green; */
+
     /* grid-column: 1 / span 2; */
+
     /* grid-row: 2 / span 1; */
+
     /* padding-top: -100px; */
     grid-column: span 2;
+
     /* margin-top: 20px; */
+
     /* margin: 15px 15px 15px 15px; */
+
     /* border: 1px solid green; */
   }
 
@@ -1077,6 +1101,7 @@
     align-items:first baseline; */
     width: 100%;
     order: 2;
+
     /* border: 2px solid green; */
     grid-row: 2;
   }
@@ -1086,31 +1111,38 @@
     flex-direction: column;
     justify-content: center;
     order: 4;
+
     /* grid-column: 1 / span 2; */
     height: 100%;
+
     /* border: 2px solid green; */
     grid-column: span 2;
-  }  
+  }
 
   .clildren4 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
     /* align-items: center; */
     gap: 10px;
     width: 100%;
     order: 3;
+
     /* border: 2px solid green; */
   }
-
 
   .close-popup {
     background-color: transparent;
     display: flex;
     justify-content: end;
+
     /* margin-bottom: 20px; */
+
     /* top: -30px; */
+
     /* margin-right: 40px; */
+
     /* border: 1px solid green; */
     height: 30px;
   }
@@ -1131,7 +1163,7 @@
   .mainContainerDisplay {
     visibility: hidden;
   }
- 
+
   .clildren2 h2 {
     font-weight: 600;
     font-size: 32px;
@@ -1149,14 +1181,14 @@
   }
 
   .ulChildren2Class li {
-    background-color:#ebf0ee ;
+    background-color: #ebf0ee;
     padding: 5px;
     border-radius: 5px;
-
   }
 
   .clildren3 p {
     text-align: justify;
+
     /* border: 2px solid rgb(47, 0, 128); */
   }
 
@@ -1175,6 +1207,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+
     /* cursor: pointer; */
   }
 
@@ -1183,7 +1216,6 @@
     justify-content: center;
     align-items: center;
     background-color: #fff;
-
     border-radius: 10px;
   }
 
