@@ -35,13 +35,16 @@
   .mainContainer {
     background-color: #c1c7d0;
     position: absolute;
-    display: flow-root;
-    left: initial;
-    right: inherit;
-    top: 0;
-    transform: scale(0.1);
-    visibility: hidden;
-    transition: transform 0.4s, top 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* left: initial;
+    right: inherit; */
+    /* top: 0; */
+    /* transform: scale(0.1); */
+    /* visibility: hidden; */
+    /* transition: transform 0.4s, top 0.4s; */
   }
 
   .close-popup {
@@ -55,11 +58,11 @@
     cursor: pointer;
   }
 
-  .popup-open {
+  /* .popup-open {
     visibility: visible;
     top: 20%;
     transform: translate(-10%, -10%) scale(1);
-  }
+  } */
 
   .mainContainerDisplay {
     visibility: hidden;
@@ -1020,6 +1023,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
+    top: -80px
     /* width: 100%; */
     /* height: 100%; */
     /* top: 0; */
@@ -1042,16 +1046,17 @@
     /* height: 1169px; */
     top: 122px;
     /* position: relative; */
-    padding: 15px 15px 15px 15px;
+    padding: 20px 20px 20px 20px;
     /* border: 2px solid green; */
   }
 
   .clildren1 {
     background-image: url(media/Popup_img_Desktop_Portfolio.svg);
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     /* width: 100%; */
-    height: 610px;
+    height: 725px;
     border-radius: 10px;
     order: 1;
     /* position: relative; */
@@ -1062,7 +1067,7 @@
     grid-column: span 2;
     /* margin-top: 20px; */
     /* margin: 15px 15px 15px 15px; */
-    border: 1px solid green;
+    /* border: 1px solid green; */
   }
 
   .clildren2 {
@@ -1100,21 +1105,22 @@
 
 
   .close-popup {
-    background-color: #fff;
+    background-color: transparent;
     display: flex;
     justify-content: end;
     /* margin-bottom: 20px; */
-    top: -20px;
+    /* top: -30px; */
     /* margin-right: 40px; */
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 30px;
   }
 
   .close-popup img {
-    /* padding: 10px; */
+    margin-right: 8px;
     cursor: pointer;
     background-color: #ebecf0;
     position: absolute;
+    border-radius: 5px;
   }
 
   /* .popup-open {
@@ -1160,7 +1166,7 @@
     text-decoration: none;
     width: auto;
     flex-wrap: nowrap;
-    width: 45%;
+    width: 48%;
   }
 
   .clildren4 a .btn-all {
