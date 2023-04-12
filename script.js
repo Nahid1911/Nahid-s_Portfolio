@@ -40,7 +40,12 @@ menuItemContact.addEventListener('click', menuDisappear);
 //    linkToLive: '', linkToSource: ''
 // }
 
-let firstProjectBtn = document.getElementById('firstProject');
+let firstProjectBtn = document.getElementById('project-1');
+let secondProjectBtn = document.getElementById('project-2');
+let thirdProjectBtn = document.getElementById('project-3');
+let fourthProjectBtn = document.getElementById('project-4');
+let fifthProjectBtn = document.getElementById('project-5');
+let sixthProjectBtn = document.getElementById('project-6');
 function firstProPopUp() {
   let firstProCardPopup = document.getElementById('firstProCard');
   let div1 = document.createElement('div');
@@ -49,7 +54,6 @@ function firstProPopUp() {
   let firstChildDiv1 = document.createElement('div')
   firstChildDiv1.id = "mainContainerL2";
   firstChildDiv1.className = "mainContainerL2";
-  // firstChildDiv1.innerHTML = '<p>Hello World<p>'
   let clildren1OffirstChild = document.createElement('div')
   clildren1OffirstChild.id = "clildren1";
   clildren1OffirstChild.className = "clildren1";
@@ -61,7 +65,6 @@ function firstProPopUp() {
   closePopupImg.id = 'close-popupImg';
   closePopupImg.src = 'media/popup_Icon_mobile_Cancel.svg';
   divInsideChil1.appendChild(closePopupImg);
-  // clildren1OffirstChild.innerHTML = '<p>Hello World<p>'
   let clildren2OffirstChild = document.createElement('div')
   clildren2OffirstChild.id = "clildren2";
   clildren2OffirstChild.className = "clildren2";
@@ -89,13 +92,25 @@ function firstProPopUp() {
   let clildren4OffirstChild = document.createElement('div')
   clildren4OffirstChild.id = "clildren4";
   clildren4OffirstChild.className = "clildren4";
+  let anchor2 = document.createElement('a');
+  anchor2.href = 'https://github.com/Nahid1911/Nahid-s_Portfolio';
+  anchor2.target ='_blank';
   let btn1 = document.createElement("button")
   btn1.innerHTML = "See live";
   btn1.id = "btn-all-id"
   btn1.className = "btn-all"
   let btn1Img = document.createElement('img');
   btn1Img.src= 'media/Popup_img_Mobile_btn.svg';
-  
+
+  // let btnAllOnClick = document.getElementById('btn-all-id')
+  // btnAllOnClick.addEventListener('click', function(event){
+  //   event.preventDefault();
+  //   window.location.href ='https://nahid1911.github.io';
+  // });
+
+  let anchor1 = document.createElement('a');
+  anchor1.href = 'https://nahid1911.github.io'
+  anchor1.target ='_blank';
   let btn2 = document.createElement("button");
   btn2.innerHTML = "See source";
   btn2.id = "btn-all-id2";
@@ -103,22 +118,25 @@ function firstProPopUp() {
   let btn2Img = document.createElement('img');
   btn2Img.src= 'media/Popup_img_mobile_btn_GitHub.svg';
 
-  // clildren4OffirstChild.innerHTML = '<p>Hello World</p>'
   ulChildren2.appendChild(li3UlChildren2);
   ulChildren2.appendChild(li2UlChildren2);
   ulChildren2.appendChild(li1UlChildren2);
   clildren2OffirstChild.appendChild(ulChildren2)
   btn1.appendChild(btn1Img);
   btn2.appendChild(btn2Img);
-  clildren4OffirstChild.appendChild(btn1)
-  clildren4OffirstChild.appendChild(btn2)
+  anchor1.appendChild(btn1)
+  anchor2.appendChild(btn2)
+  clildren4OffirstChild.appendChild(anchor1);
+  clildren4OffirstChild.appendChild(anchor2);
   firstChildDiv1.appendChild(clildren1OffirstChild);
   firstChildDiv1.appendChild(clildren2OffirstChild);
   firstChildDiv1.appendChild(clildren3OffirstChild);
   firstChildDiv1.appendChild(clildren4OffirstChild);
   div1.appendChild(firstChildDiv1)
-  firstProCardPopup.appendChild(div1);
+  document.body.appendChild(div1);
   div1.classList.add('popup-open');
+
+// screen scroll to the popupwindow
 
 // Mobile-Menu-Disapper
 let toggleBtn = document.getElementById('close-popupImg');
@@ -127,5 +145,12 @@ let toggleContent = document.getElementById('mainContainerId');
       if(toggleContent){
     toggleContent.parentNode.removeChild(toggleContent);}
 });
+div1.scrollIntoView({behavior: "smooth", block: 'start'})
 }
 firstProjectBtn.addEventListener('click', firstProPopUp);
+secondProjectBtn.addEventListener('click', firstProPopUp);
+thirdProjectBtn.addEventListener('click', firstProPopUp);
+fourthProjectBtn.addEventListener('click', firstProPopUp);
+fifthProjectBtn.addEventListener('click', firstProPopUp);
+sixthProjectBtn.addEventListener('click', firstProPopUp);
+
