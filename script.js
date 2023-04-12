@@ -44,41 +44,61 @@ let firstProjectBtn = document.getElementById('firstProject');
 function firstProPopUp() {
   let firstProCardPopup = document.getElementById('firstProCard');
   let div1 = document.createElement('div');
-  div1.id = "mainContainerID";
-  div1.className = "mainContainer"
+  div1.id = 'mainContainerId';
+  div1.className = 'mainContainer';
   let firstChildDiv1 = document.createElement('div')
+  firstChildDiv1.id = "mainContainerL2";
   firstChildDiv1.className = "mainContainerL2";
   // firstChildDiv1.innerHTML = '<p>Hello World<p>'
   let clildren1OffirstChild = document.createElement('div')
+  clildren1OffirstChild.id = "clildren1";
   clildren1OffirstChild.className = "clildren1";
+  let divInsideChil1 = document.createElement('div');
+  divInsideChil1.id = 'close-popup';
+  divInsideChil1.className = 'close-popup';
+  clildren1OffirstChild.appendChild(divInsideChil1);
+  let closePopupImg = document.createElement('img');
+  closePopupImg.id = 'close-popupImg';
+  closePopupImg.src = 'media/popup_Icon_mobile_Cancel.svg';
+  divInsideChil1.appendChild(closePopupImg);
   // clildren1OffirstChild.innerHTML = '<p>Hello World<p>'
   let clildren2OffirstChild = document.createElement('div')
+  clildren2OffirstChild.id = "clildren2";
   clildren2OffirstChild.className = "clildren2";
   clildren2OffirstChild.innerHTML = '<h2>Keeping track of hundreds of components</h2>'
   let ulChildren2 = document.createElement('ul');
+  ulChildren2.id = "ulChildren2Class";
   ulChildren2.className = "ulChildren2Class";
   let li1UlChildren2 = document.createElement('li')
+  li1UlChildren2.id = "liUlChildren2Class";
+  li1UlChildren2.id = "liUlChildren2Class";
   li1UlChildren2.className = "liUlChildren2Class";
   li1UlChildren2.innerText = 'Ruby on Rails';
   let li2UlChildren2 = document.createElement('li')
+  li2UlChildren2.id = "liUlChildren2Class";
   li2UlChildren2.className = "liUlChildren2Class";
   li2UlChildren2.innerText = 'CSS';
   let li3UlChildren2 = document.createElement('li')
+  li3UlChildren2.id = "liUlChildren2Class";
   li3UlChildren2.className = "liUlChildren2Class";
   li3UlChildren2.innerText = 'JavaScript';
   let clildren3OffirstChild = document.createElement('div')
+  clildren3OffirstChild.id = "clildren3";
   clildren3OffirstChild.className = "clildren3";
   clildren3OffirstChild.innerHTML = '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p> <br> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>'
   let clildren4OffirstChild = document.createElement('div')
+  clildren4OffirstChild.id = "clildren4";
   clildren4OffirstChild.className = "clildren4";
   let btn1 = document.createElement("button")
   btn1.innerHTML = "See live";
+  btn1.id = "btn-all-id"
   btn1.className = "btn-all"
   let btn1Img = document.createElement('img');
   btn1Img.src= 'media/Popup_img_Mobile_btn.svg';
   
   let btn2 = document.createElement("button");
   btn2.innerHTML = "See source";
+  btn2.id = "btn-all-id2";
   btn2.className = "btn-all";
   let btn2Img = document.createElement('img');
   btn2Img.src= 'media/Popup_img_mobile_btn_GitHub.svg';
@@ -98,6 +118,14 @@ function firstProPopUp() {
   firstChildDiv1.appendChild(clildren4OffirstChild);
   div1.appendChild(firstChildDiv1)
   firstProCardPopup.appendChild(div1);
-}
+  div1.classList.add('popup-open');
 
+// Mobile-Menu-Disapper
+let toggleBtn = document.getElementById('close-popupImg');
+let toggleContent = document.getElementById('mainContainerId');
+    toggleBtn.addEventListener('click', function() {
+      if(toggleContent){
+    toggleContent.parentNode.removeChild(toggleContent);}
+});
+}
 firstProjectBtn.addEventListener('click', firstProPopUp);
