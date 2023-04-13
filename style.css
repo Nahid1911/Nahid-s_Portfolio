@@ -1043,6 +1043,7 @@
     width: 100%;
     height: 530px;
     border-radius: 10px;
+    margin-bottom: 30px;
   }
 
   .children2 {
@@ -1058,7 +1059,7 @@
     grid-area: button;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: right;
     gap: 10px;
   }
 
