@@ -39,27 +39,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /* left: initial;
-    right: inherit; */
-
-    /* top: 0; */
-
-    /* transform: scale(0.1); */
-
-    /* visibility: hidden; */
-
-    /* transition: transform 0.4s, top 0.4s; */
   }
-
-
-  
-
-  /* .popup-open {
-    visibility: visible;
-    top: 20%;
-    transform: translate(-10%, -10%) scale(1);
-  } */
 
   .mainContainerDisplay {
     visibility: hidden;
@@ -115,7 +95,7 @@
   .ulChildren2Class {
     display: flex;
     flex-direction: row;
-    justify-content: first baseline;
+    justify-content: flex-start;
     list-style: none;
     gap: 5px;
     margin: 8px 0;
@@ -143,19 +123,8 @@
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    width: auto;
     flex-wrap: nowrap;
     width: 45%;
-  }
-
-  .children4 a .btn-all {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-
-    /* cursor: pointer; */
   }
 
   .mainContainerL2 p {
@@ -223,6 +192,14 @@
     color: #fff;
     margin-top: 20px;
     cursor: pointer;
+  }
+
+  .children4 a .btn-all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 
   .main-text {
@@ -1034,13 +1011,12 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: -80px
+    top: -80px;
   }
 
   .mainContainerL2 {
     display: grid;
-    grid-template-areas: 'closingImg  closingImg closingImg' 'img img img' 
-    'heading heading button' 'paragraph paragraph paragraph';
+    grid-template-areas: 'closingImg  closingImg closingImg' 'img img img' 'heading heading button' 'paragraph paragraph paragraph';
     flex-wrap: nowrap;
     background-color: #fff;
     margin: 10%;
@@ -1058,7 +1034,6 @@
     height: 30px;
     width: 100%;
   }
-
 
   .children1 {
     background-image: url(media/Popup_img_Desktop_Portfolio.svg);
@@ -1086,7 +1061,6 @@
     justify-content: space-between;
     gap: 10px;
   }
-
   
   .children0 img {
     cursor: pointer;
@@ -1101,16 +1075,16 @@
     color: #172b4d;
   }
 
-  .ulChildren2Class {
+  .children2 .ulChildren2Class {
     display: flex;
     flex-direction: row;
-    justify-content: first baseline;
+    justify-content: flex-start;
     list-style: none;
     gap: 5px;
     margin-top: 10px;
   }
 
-  .ulChildren2Class li {
+  .children2 .ulChildren2Class li {
     background-color: #ebf0ee;
     padding: 5px;
     border-radius: 5px;
@@ -1140,5 +1114,4 @@
     align-items: center;
     width: 100%;
   }
-
 }

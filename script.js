@@ -91,30 +91,30 @@ for (let i = 0; i < projectBtn.length; i += 1) {
     div1.innerHTML = `
       <div id="mainContainerL2" class="mainContainerL2">
         <div id="children0" class="children0">
-            <img id="children0Img" src="media/popup_Icon_mobile_Cancel.svg">
+          <img id="children0Img" src="media/popup_Icon_mobile_Cancel.svg">
         </div><div id="children1" class="children1"></div>
         <div id="children2" class="children2">
-            <h2>${projects[i].projectName}</h2>
-            <ul id="ulChildren2Class" class="ulChildren2Class">
-                <li id="liUlChildren2Class" class="liUlChildren2Class">${projects[i].projTechno[0]}</li>
-                <li id="liUlChildren2Class" class="liUlChildren2Class">${projects[i].projTechno[1]}</li>
-                <li id="liUlChildren2Class" class="liUlChildren2Class">${projects[i].projTechno[2]}</li>
-            </ul>
+          <h2>${projects[i].projectName}</h2>
+          <ul id="ulChildren2Class" class="ulChildren2Class">
+            <li id="liUlChildren2Class" class="liUlChildren2Class">${projects[i].projTechno[0]}</li>
+            <li id="liUlChildren2Class" class="liUlChildren2Class">${projects[i].projTechno[1]}</li>
+            <li id="liUlChildren2Class" class="liUlChildren2Class">${projects[i].projTechno[2]}</li>
+          </ul>
         </div>
         <div id="children3" class="children3">
-            <p id="pOfChild3" class="pOfChild3">${projects[i].projectDescription}</p>
+          <p id="pOfChild3" class="pOfChild3">${projects[i].projectDescription}</p>
         </div>
         <div id="children4" class="children4">
-            <a href=${projects[i].linkToLive} target="_blank">
-                <button id="btn-all-id" class="btn-all">See live
-                    <img src="media/Popup_img_Mobile_btn.svg">
-                </button>
-            </a>
-            <a href=${projects[i].linkToSource} target="_blank">
-                <button id="btn-all-id2" class="btn-all">See source
-                    <img src="media/Popup_img_mobile_btn_GitHub.svg">
-                </button>  
-            </a>
+          <a href=${projects[i].linkToLive} target="_blank">
+            <button id="btn-all-id" class="btn-all">See live
+              <img src="media/Popup_img_Mobile_btn.svg">
+            </button>
+          </a>
+          <a href=${projects[i].linkToSource} target="_blank">
+            <button id="btn-all-id2" class="btn-all">See source
+              <img src="media/Popup_img_mobile_btn_GitHub.svg">
+            </button>  
+          </a>
         </div>
       </div>`;
     document.body.appendChild(div1);
