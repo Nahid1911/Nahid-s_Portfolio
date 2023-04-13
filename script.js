@@ -33,180 +33,101 @@ menuItemContact.addEventListener('click', menuDisappear);
 
 //  ----Mobile Popup Window ----
 
-const projects = [
-  pr1 = {
-    projectName:'Keeping track of hundreds of components',
-    projectDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.`,
-    projCoverImage:['media/Header-llustration-desktopHeader.svg', 'media/Popup_img_Desktop_Portfolio.svg'], projTechno:['Ruby on Rails', 'CSS', 'JavaScript'],
-    linkToLive: 'https://nahid1911.github.io', linkToSource: 'https://github.com/Nahid1911/Nahid-s_Portfolio'
-  },
-  pr2 = {
-    projectName:'Keeping track of hundreds of components',
-    projectDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.`,
-    projCoverImage:['media/Header-llustration-desktopHeader.svg', 'media/Popup_img_Desktop_Portfolio.svg'], projTechno:['Ruby on Rails', 'CSS', 'JavaScript'],
-    linkToLive: 'https://nahid1911.github.io', linkToSource: 'https://github.com/Nahid1911/Nahid-s_Portfolio'
-  }
-]
+const projectBtn = document.querySelectorAll('.work-history .btn-all');
+for (let i = 0; i < projectBtn.length; i += 1) {
+  projectBtn[i].addEventListener('click', () => {
+    const projects = [
+      {
+        projectName: 'Keeping track of hundreds of components',
+        projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
+        projTechno: ['Ruby on Rails', 'CSS', 'JavaScript'],
+        linkToLive: 'https://nahid1911.github.io',
+        linkToSource: 'https://github.com/Nahid1911/Nahid-s_Portfolio',
+      },
+      {
+        projectName: 'Keeping track of hundreds of components',
+        projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
+        projTechno: ['JavaScript', 'CSS', 'Ruby on Rails'],
+        linkToLive: 'https://nahid1911.github.io',
+        linkToSource: 'https://github.com/Nahid1911/Nahid-s_Portfolio',
+      },
 
-const firstProjectBtn = document.getElementById('project-1');
-function firstProPopUp() {
-  const div1 = document.createElement('div');
-  div1.id = 'mainContainerId';
-  div1.className = 'mainContainer';
-  div1.innerHTML =
-  `<div id="mainContainerL2" class="mainContainerL2">
-    <div id="children0" class="children0">
-        <img id="children0Img" src="media/popup_Icon_mobile_Cancel.svg">
-    </div><div id="children1" class="children1"></div>
-    <div id="children2" class="children2">
-        <h2>Keeping track of hundreds of components</h2>
-        <ul id="ulChildren2Class" class="ulChildren2Class">
-            <li id="liUlChildren2Class" class="liUlChildren2Class">JavaScript</li>
-            <li id="liUlChildren2Class" class="liUlChildren2Class">CSS</li>
-            <li id="liUlChildren2Class" class="liUlChildren2Class">Ruby on Rails</li>
-        </ul>
-    </div>
-    <div id="children3" class="children3">
-        <p id="pOfChild3" class="pOfChild3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>
-    </div>
-    <div id="children4" class="children4">
-        <a href="https://nahid1911.github.io" target="_blank">
-            <button id="btn-all-id" class="btn-all">See live
-                <img src="media/Popup_img_Mobile_btn.svg">
-            </button>
-        </a>
-        <a href="https://github.com/Nahid1911/Nahid-s_Portfolio" target="_blank">
-            <button id="btn-all-id2" class="btn-all">See source
-                <img src="media/Popup_img_mobile_btn_GitHub.svg">
-            </button>  
-        </a>
-    </div>
-  </div>`
-  document.body.appendChild(div1);
-   // Mobile-Menu-Disapper
-  const toggleBtn = document.getElementById('children0Img');
-  const toggleContent = document.getElementById('mainContainerId');
-  toggleBtn.addEventListener('click', () => {
-    if (toggleContent) {
-      toggleContent.parentNode.removeChild(toggleContent);
-    }
+      {
+        projectName: 'Keeping track of hundreds of components',
+        projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
+        projTechno: ['Ruby on Rails', 'CSS', 'JavaScript'],
+        linkToLive: 'https://nahid1911.github.io',
+        linkToSource: 'https://github.com/Nahid1911/Nahid-s_Portfolio',
+      },
+
+      {
+        projectName: 'Keeping track of hundreds of components',
+        projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
+        projTechno: ['Ruby on Rails', 'CSS', 'JavaScript'],
+        linkToLive: 'https://nahid1911.github.io',
+        linkToSource: 'https://github.com/Nahid1911/Nahid-s_Portfolio',
+      },
+
+      {
+        projectName: 'Keeping track of hundreds of components',
+        projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
+        projTechno: ['Ruby on Rails', 'CSS', 'JavaScript'],
+        linkToLive: 'https://nahid1911.github.io',
+        linkToSource: 'https://github.com/Nahid1911/Nahid-s_Portfolio',
+      },
+
+      {
+        projectName: 'Keeping track of hundreds of components',
+        projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
+        projTechno: ['Ruby on Rails', 'CSS', 'JavaScript'],
+        linkToLive: 'https://nahid1911.github.io',
+        linkToSource: 'https://github.com/Nahid1911/Nahid-s_Portfolio',
+      },
+    ];
+
+    const div1 = document.createElement('div');
+    div1.id = 'mainContainerId';
+    div1.className = 'mainContainer';
+    div1.innerHTML = `
+      <div id="mainContainerL2" class="mainContainerL2">
+        <div id="children0" class="children0">
+            <img id="children0Img" src="media/popup_Icon_mobile_Cancel.svg">
+        </div><div id="children1" class="children1"></div>
+        <div id="children2" class="children2">
+            <h2>${projects[i].projectName}</h2>
+            <ul id="ulChildren2Class" class="ulChildren2Class">
+                <li id="liUlChildren2Class" class="liUlChildren2Class">${projects[i].projTechno[0]}</li>
+                <li id="liUlChildren2Class" class="liUlChildren2Class">${projects[i].projTechno[1]}</li>
+                <li id="liUlChildren2Class" class="liUlChildren2Class">${projects[i].projTechno[2]}</li>
+            </ul>
+        </div>
+        <div id="children3" class="children3">
+            <p id="pOfChild3" class="pOfChild3">${projects[i].projectDescription}</p>
+        </div>
+        <div id="children4" class="children4">
+            <a href=${projects[i].linkToLive} target="_blank">
+                <button id="btn-all-id" class="btn-all">See live
+                    <img src="media/Popup_img_Mobile_btn.svg">
+                </button>
+            </a>
+            <a href=${projects[i].linkToSource} target="_blank">
+                <button id="btn-all-id2" class="btn-all">See source
+                    <img src="media/Popup_img_mobile_btn_GitHub.svg">
+                </button>  
+            </a>
+        </div>
+      </div>`;
+    document.body.appendChild(div1);
+
+    // Mobile-Menu-Disapper
+
+    const toggleBtn = document.getElementById('children0Img');
+    const toggleContent = document.getElementById('mainContainerId');
+    toggleBtn.addEventListener('click', () => {
+      if (toggleContent) {
+        toggleContent.parentNode.removeChild(toggleContent);
+      }
+    });
+    div1.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
-  div1.scrollIntoView({ behavior: 'smooth', block: 'start' });
-
- 
 }
-firstProjectBtn.addEventListener('click', firstProPopUp);
-
-
-// const firstProjectBtn = document.getElementById('project-1');
-// const secondProjectBtn = document.getElementById('project-2');
-// const thirdProjectBtn = document.getElementById('project-3');
-// const fourthProjectBtn = document.getElementById('project-4');
-// const fifthProjectBtn = document.getElementById('project-5');
-// const sixthProjectBtn = document.getElementById('project-6');
-
-// function firstProPopUp() {
-//   const div1 = document.createElement('div');
-//   div1.id = 'mainContainerId';
-//   div1.className = 'mainContainer';
-//   const firstChildDiv1 = document.createElement('div');
-//   firstChildDiv1.id = 'mainContainerL2';
-//   firstChildDiv1.className = 'mainContainerL2';
-//   const children1OffirstChild = document.createElement('div');
-//   children1OffirstChild.id = 'children1';
-//   children1OffirstChild.className = 'children1';
-//   const children0OffirstChild = document.createElement('div');
-//   children0OffirstChild.id = 'children0';
-//   children0OffirstChild.className = 'children0';
-//   const closePopupImg = document.createElement('img');
-//   closePopupImg.id = 'children0Img';
-//   closePopupImg.src = 'media/popup_Icon_mobile_Cancel.svg';
-//   const children2OffirstChild = document.createElement('div');
-//   children2OffirstChild.id = 'children2';
-//   children2OffirstChild.className = 'children2';
-//   const h2Ofchildren2 = document.createElement('h2');
-//   h2Ofchildren2.innerText = 'Keeping track of hundreds of components';
-//   const ulChildren2 = document.createElement('ul');
-//   ulChildren2.id = 'ulChildren2Class';
-//   ulChildren2.className = 'ulChildren2Class';
-//   const li1UlChildren2 = document.createElement('li');
-//   li1UlChildren2.id = 'liUlChildren2Class';
-//   li1UlChildren2.id = 'liUlChildren2Class';
-//   li1UlChildren2.className = 'liUlChildren2Class';
-//   li1UlChildren2.innerText = 'Ruby on Rails';
-//   const li2UlChildren2 = document.createElement('li');
-//   li2UlChildren2.id = 'liUlChildren2Class';
-//   li2UlChildren2.className = 'liUlChildren2Class';
-//   li2UlChildren2.innerText = 'CSS';
-//   const li3UlChildren2 = document.createElement('li');
-//   li3UlChildren2.id = 'liUlChildren2Class';
-//   li3UlChildren2.className = 'liUlChildren2Class';
-//   li3UlChildren2.innerText = 'JavaScript';
-//   const children3OffirstChild = document.createElement('div');
-//   children3OffirstChild.id = 'children3';
-//   children3OffirstChild.className = 'children3';
-//   const pOfChildre3 = document.createElement('p');
-//   pOfChildre3.id = 'pOfChild3';
-//   pOfChildre3.className = 'pOfChild3';
-//   pOfChildre3.innerText = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.';
-//   const children4OffirstChild = document.createElement('div');
-//   children4OffirstChild.id = 'children4';
-//   children4OffirstChild.className = 'children4';
-//   const anchor2 = document.createElement('a');
-//   anchor2.href = 'https://github.com/Nahid1911/Nahid-s_Portfolio';
-//   anchor2.target = '_blank';
-//   const btn1 = document.createElement('button');
-//   btn1.innerHTML = 'See live';
-//   btn1.id = 'btn-all-id';
-//   btn1.className = 'btn-all';
-//   const btn1Img = document.createElement('img');
-//   btn1Img.src = 'media/Popup_img_Mobile_btn.svg';
-//   const anchor1 = document.createElement('a');
-//   anchor1.href = 'https://nahid1911.github.io';
-//   anchor1.target = '_blank';
-//   const btn2 = document.createElement('button');
-//   btn2.innerHTML = 'See source';
-//   btn2.id = 'btn-all-id2';
-//   btn2.className = 'btn-all';
-//   const btn2Img = document.createElement('img');
-//   btn2Img.src = 'media/Popup_img_mobile_btn_GitHub.svg';
-//   ulChildren2.appendChild(li3UlChildren2);
-//   ulChildren2.appendChild(li2UlChildren2);
-//   ulChildren2.appendChild(li1UlChildren2);
-//   children2OffirstChild.appendChild(h2Ofchildren2);
-//   children2OffirstChild.appendChild(ulChildren2);
-//   btn1.appendChild(btn1Img);
-//   btn2.appendChild(btn2Img);
-//   anchor1.appendChild(btn1);
-//   anchor2.appendChild(btn2);
-//   children3OffirstChild.appendChild(pOfChildre3);
-//   children4OffirstChild.appendChild(anchor1);
-//   children4OffirstChild.appendChild(anchor2);
-//   children0OffirstChild.appendChild(closePopupImg);
-//   firstChildDiv1.appendChild(children0OffirstChild);
-//   firstChildDiv1.appendChild(children1OffirstChild);
-//   firstChildDiv1.appendChild(children2OffirstChild);
-//   firstChildDiv1.appendChild(children3OffirstChild);
-//   firstChildDiv1.appendChild(children4OffirstChild);
-//   div1.appendChild(firstChildDiv1);
-//   document.body.appendChild(div1);
-//   div1.classList.add('popup-open');
-
-//   // screen scroll to the popupwindow
-
-//   // Mobile-Menu-Disapper
-//   const toggleBtn = document.getElementById('children0Img');
-//   const toggleContent = document.getElementById('mainContainerId');
-//   toggleBtn.addEventListener('click', () => {
-//     if (toggleContent) {
-//       toggleContent.parentNode.removeChild(toggleContent);
-//     }
-//   });
-//   div1.scrollIntoView({ behavior: 'smooth', block: 'start' });
-// }
-// firstProjectBtn.addEventListener('click', firstProPopUp);
-// secondProjectBtn.addEventListener('click', firstProPopUp);
-// thirdProjectBtn.addEventListener('click', firstProPopUp);
-// fourthProjectBtn.addEventListener('click', firstProPopUp);
-// fifthProjectBtn.addEventListener('click', firstProPopUp);
-// sixthProjectBtn.addEventListener('click', firstProPopUp);
