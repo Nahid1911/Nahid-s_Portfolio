@@ -33,12 +33,21 @@ menuItemContact.addEventListener('click', menuDisappear);
 
 //  ----Mobile Popup Window ----
 
-// let projectInfo1 = {
+// let projects = {
+// project1 {
 //    projectName: 'Keeping track of hundreds of components',
-//    projectDescriptionP1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
-//    projImage: '', projTechno1: 'Ruby on Rails', projTechno2: 'CSS', projTechno3: 'JavaScript',
+//    projectDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.`
+//    projCoverImage: '', projTechno1: 'Ruby on Rails', projTechno2: 'CSS', projTechno3: 'JavaScript',
 //    linkToLive: 'https://nahid1911.github.io', linkToSource: 'https://github.com/Nahid1911/Nahid-s_Portfolio'
 // }
+// project2 {
+//    projectName: 'Keeping track of hundreds of components',
+//    projectDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.`
+//    projCoverImage: '', projTechno1: 'Ruby on Rails', projTechno2: 'CSS', projTechno3: 'JavaScript',
+//    linkToLive: 'https://nahid1911.github.io', linkToSource: 'https://github.com/Nahid1911/Nahid-s_Portfolio'
+// }
+// }
+
 
 const firstProjectBtn = document.getElementById('project-1');
 const secondProjectBtn = document.getElementById('project-2');
@@ -46,29 +55,28 @@ const thirdProjectBtn = document.getElementById('project-3');
 const fourthProjectBtn = document.getElementById('project-4');
 const fifthProjectBtn = document.getElementById('project-5');
 const sixthProjectBtn = document.getElementById('project-6');
+
 function firstProPopUp() {
-  // const firstProCardPopup = document.getElementById('firstProCard');
   const div1 = document.createElement('div');
   div1.id = 'mainContainerId';
   div1.className = 'mainContainer';
   const firstChildDiv1 = document.createElement('div');
   firstChildDiv1.id = 'mainContainerL2';
   firstChildDiv1.className = 'mainContainerL2';
-  const clildren1OffirstChild = document.createElement('div');
-  clildren1OffirstChild.id = 'clildren1';
-  clildren1OffirstChild.className = 'clildren1';
-  const divInsideChil1 = document.createElement('div');
-  divInsideChil1.id = 'close-popup';
-  divInsideChil1.className = 'close-popup';
-  clildren1OffirstChild.appendChild(divInsideChil1);
+  const children1OffirstChild = document.createElement('div');
+  children1OffirstChild.id = 'children1';
+  children1OffirstChild.className = 'children1';
+  const children0OffirstChild = document.createElement('div');
+  children0OffirstChild.id = 'children0';
+  children0OffirstChild.className = 'children0';
   const closePopupImg = document.createElement('img');
-  closePopupImg.id = 'close-popupImg';
+  closePopupImg.id = 'children0Img';
   closePopupImg.src = 'media/popup_Icon_mobile_Cancel.svg';
-  divInsideChil1.appendChild(closePopupImg);
-  const clildren2OffirstChild = document.createElement('div');
-  clildren2OffirstChild.id = 'clildren2';
-  clildren2OffirstChild.className = 'clildren2';
-  clildren2OffirstChild.innerHTML = '<h2>Keeping track of hundreds of components</h2>';
+  const children2OffirstChild = document.createElement('div');
+  children2OffirstChild.id = 'children2';
+  children2OffirstChild.className = 'children2';
+  const h2Ofchildren2 = document.createElement('h2');
+  h2Ofchildren2.innerText = 'Keeping track of hundreds of components';
   const ulChildren2 = document.createElement('ul');
   ulChildren2.id = 'ulChildren2Class';
   ulChildren2.className = 'ulChildren2Class';
@@ -85,13 +93,16 @@ function firstProPopUp() {
   li3UlChildren2.id = 'liUlChildren2Class';
   li3UlChildren2.className = 'liUlChildren2Class';
   li3UlChildren2.innerText = 'JavaScript';
-  const clildren3OffirstChild = document.createElement('div');
-  clildren3OffirstChild.id = 'clildren3';
-  clildren3OffirstChild.className = 'clildren3';
-  clildren3OffirstChild.innerHTML = '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p> <br> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.</p>';
-  const clildren4OffirstChild = document.createElement('div');
-  clildren4OffirstChild.id = 'clildren4';
-  clildren4OffirstChild.className = 'clildren4';
+  const children3OffirstChild = document.createElement('div');
+  children3OffirstChild.id = 'children3';
+  children3OffirstChild.className = 'children3';
+  const pOfChildre3 = document.createElement('p');
+  pOfChildre3.id = 'pOfChild3';
+  pOfChildre3.className = 'pOfChild3';
+  pOfChildre3.innerText = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.';
+  const children4OffirstChild = document.createElement('div');
+  children4OffirstChild.id = 'children4';
+  children4OffirstChild.className = 'children4';
   const anchor2 = document.createElement('a');
   anchor2.href = 'https://github.com/Nahid1911/Nahid-s_Portfolio';
   anchor2.target = '_blank';
@@ -101,13 +112,6 @@ function firstProPopUp() {
   btn1.className = 'btn-all';
   const btn1Img = document.createElement('img');
   btn1Img.src = 'media/Popup_img_Mobile_btn.svg';
-
-  // let btnAllOnClick = document.getElementById('btn-all-id')
-  // btnAllOnClick.addEventListener('click', function(event){
-  //   event.preventDefault();
-  //   window.location.href ='https://nahid1911.github.io';
-  // });
-
   const anchor1 = document.createElement('a');
   anchor1.href = 'https://nahid1911.github.io';
   anchor1.target = '_blank';
@@ -117,21 +121,24 @@ function firstProPopUp() {
   btn2.className = 'btn-all';
   const btn2Img = document.createElement('img');
   btn2Img.src = 'media/Popup_img_mobile_btn_GitHub.svg';
-
   ulChildren2.appendChild(li3UlChildren2);
   ulChildren2.appendChild(li2UlChildren2);
   ulChildren2.appendChild(li1UlChildren2);
-  clildren2OffirstChild.appendChild(ulChildren2);
+  children2OffirstChild.appendChild(h2Ofchildren2);
+  children2OffirstChild.appendChild(ulChildren2);
   btn1.appendChild(btn1Img);
   btn2.appendChild(btn2Img);
   anchor1.appendChild(btn1);
   anchor2.appendChild(btn2);
-  clildren4OffirstChild.appendChild(anchor1);
-  clildren4OffirstChild.appendChild(anchor2);
-  firstChildDiv1.appendChild(clildren1OffirstChild);
-  firstChildDiv1.appendChild(clildren2OffirstChild);
-  firstChildDiv1.appendChild(clildren3OffirstChild);
-  firstChildDiv1.appendChild(clildren4OffirstChild);
+  children3OffirstChild.appendChild(pOfChildre3);
+  children4OffirstChild.appendChild(anchor1);
+  children4OffirstChild.appendChild(anchor2);
+  children0OffirstChild.appendChild(closePopupImg);
+  firstChildDiv1.appendChild(children0OffirstChild);
+  firstChildDiv1.appendChild(children1OffirstChild);
+  firstChildDiv1.appendChild(children2OffirstChild);
+  firstChildDiv1.appendChild(children3OffirstChild);
+  firstChildDiv1.appendChild(children4OffirstChild);
   div1.appendChild(firstChildDiv1);
   document.body.appendChild(div1);
   div1.classList.add('popup-open');
@@ -139,7 +146,7 @@ function firstProPopUp() {
   // screen scroll to the popupwindow
 
   // Mobile-Menu-Disapper
-  const toggleBtn = document.getElementById('close-popupImg');
+  const toggleBtn = document.getElementById('children0Img');
   const toggleContent = document.getElementById('mainContainerId');
   toggleBtn.addEventListener('click', () => {
     if (toggleContent) {
