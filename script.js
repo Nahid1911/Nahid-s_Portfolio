@@ -31,6 +31,153 @@ menuItemPortfolio.addEventListener('click', menuDisappear);
 menuItemAbout.addEventListener('click', menuDisappear);
 menuItemContact.addEventListener('click', menuDisappear);
 
+//  ----My Recent Works dynamic insertion ----
+let workHistory = [
+  {
+  cardThumbnail: "https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1575936123452-b67c3203c357%3Fixlib%3Drb-4.0.3%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8%26w%3D1000%26q%3D80",
+  cardTitle: "Multi-Post Stories Gain+Glory",
+  cardTags: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
+  btnInnerText: "See project"
+},
+
+{
+  cardThumbnail: "https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1575936123452-b67c3203c357%3Fixlib%3Drb-4.0.3%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8%26w%3D1000%26q%3D80",
+  cardTitle: "Multi-Post Stories Gain+Glory",
+  cardTags: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
+  btnInnerText: "See project"
+}
+
+
+]
+
+let workContainer = document.getElementById('WorkContainerID');
+const sectionDiv = document.createElement('div');
+  sectionDiv.id = "work-history";
+  sectionDiv.innerHTML =`
+  <div class="work-history">
+    <div id="firstProCard" class="project">
+      <div class="project-preview">
+        <img src=${workHistory[0].cardThumbnail} alt="Project Thumbnail" alt="Project Thumbnail">
+      </div>
+      <div class="project-info">
+        <h3 class="project-title">${workHistory[0].cardTitle}</h3>
+        <div>
+          <ul class="project-tags">
+            <li>${workHistory[0].cardTags[0]}</li>
+            <li>${workHistory[0].cardTags[1]}</li>
+            <li>${workHistory[0].cardTags[2]}</li>
+            <li>${workHistory[0].cardTags[3]}</li>
+          </ul>
+        </div>
+        <div class="btn-container">
+          <button id="0" type="submit" class="btn-all">See project</button>
+        </div>
+      </div>
+    </div>
+    <div id="2ndProCard" class="project">
+      <div class="project-preview">
+        <img src=${workHistory[0].cardThumbnail}>
+      </div>
+      <div class="project-info">
+        <h3 class="project-title">${workHistory[0].cardTitle}</h3>
+        <div>
+          <ul class="project-tags">
+            <li>${workHistory[0].cardTags[0]}</li>
+            <li>${workHistory[0].cardTags[1]}</li>
+            <li>${workHistory[0].cardTags[2]}</li>
+            <li>${workHistory[0].cardTags[3]}</li>
+          </ul>
+        </div>
+        <div class="btn-container">
+          <button id="1" type="submit" class="btn-all">See project</button>
+        </div>
+      </div>
+    </div>
+    <div class="project">
+      <div class="project-preview">
+        <img src=${workHistory[0].cardThumbnail}>
+      </div>
+      <div class="project-info">
+        <h3 class="project-title">${workHistory[0].cardTitle}</h3>
+        <div>
+          <ul class="project-tags">
+            <li>${workHistory[0].cardTags[0]}</li>
+            <li>${workHistory[0].cardTags[1]}</li>
+            <li>${workHistory[0].cardTags[2]}</li>
+            <li>${workHistory[0].cardTags[3]}</li>
+          </ul>
+        </div>
+        <div class="btn-container">
+          <button id="2" type="submit" class="btn-all">See project</button>
+        </div>
+      </div>
+    </div>
+    <div class="project">
+      <div class="project-preview">
+        <img src=${workHistory[0].cardThumbnail}>
+      </div>
+      <div class="project-info">
+        <h3 class="project-title">${workHistory[0].cardTitle}</h3>
+        <div>
+          <ul class="project-tags">
+            <li>${workHistory[0].cardTags[0]}</li>
+            <li>${workHistory[0].cardTags[1]}</li>
+            <li>${workHistory[0].cardTags[2]}</li>
+            <li>${workHistory[0].cardTags[3]}</li>
+          </ul>
+        </div>
+        <div class="btn-container">
+          <button id="3" type="submit" class="btn-all">See project</button>
+        </div>
+      </div>
+    </div>
+    <div class="project">
+      <div class="project-preview">
+        <img src=${workHistory[0].cardThumbnail}>
+      </div>
+      <div class="project-info">
+        <h3 class="project-title">${workHistory[0].cardTitle}</h3>
+        <div>
+          <ul class="project-tags">
+            <li>${workHistory[0].cardTags[0]}</li>
+            <li>${workHistory[0].cardTags[1]}</li>
+            <li>${workHistory[0].cardTags[2]}</li>
+            <li>${workHistory[0].cardTags[3]}</li>
+          </ul>
+        </div>
+        <div class="btn-container">
+          <button id="4" type="submit" class="btn-all">See project</button>
+        </div>
+      </div>
+    </div>
+    <div class="project">
+      <div class="project-preview">
+        <img src=${workHistory[0].cardThumbnail}>
+      </div>
+      <div class="project-info">
+        <h3 class="project-title">${workHistory[0].cardTitle}</h3>
+        <div>
+          <ul class="project-tags">
+            <li>${workHistory[0].cardTags[0]}</li>
+            <li>${workHistory[0].cardTags[1]}</li>
+            <li>${workHistory[0].cardTags[2]}</li>
+            <li>${workHistory[0].cardTags[3]}</li>
+          </ul>
+        </div>
+        <div class="btn-container">
+          <button id="5" type="submit" class="btn-all">See project</button>
+        </div>
+      </div>
+    </div>
+
+  </div>`
+
+  workContainer.appendChild(sectionDiv);
+
+
+
+
+
 //  ----Mobile Popup Window ----
 
 const projectBtn = document.querySelectorAll('.work-history .btn-all');
@@ -91,8 +238,11 @@ for (let i = 0; i < projectBtn.length; i += 1) {
     div1.innerHTML = `
       <div id="mainContainerL2" class="mainContainerL2">
         <div id="children0" class="children0">
-          <img id="children0Img" src="media/popup_Icon_mobile_Cancel.svg">
-        </div><div id="children1" class="children1"></div>
+        <img id="children0Img" src="media/popup_Icon_mobile_Cancel.svg">
+        </div>
+        <div id="children1" class="children1">
+        <img id="children1Id" src="media/Popup_img_Desktop_Portfolio.svg">
+        </div>
         <div id="children2" class="children2">
           <h2>${projects[i].projectName}</h2>
           <ul id="ulChildren2Class" class="ulChildren2Class">
@@ -128,6 +278,6 @@ for (let i = 0; i < projectBtn.length; i += 1) {
         toggleContent.parentNode.removeChild(toggleContent);
       }
     });
-    div1.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    // div1.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 }
