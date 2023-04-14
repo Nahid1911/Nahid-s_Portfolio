@@ -278,7 +278,7 @@ for (let i = 0; i < projectBtn.length; i += 1) {
 }
 
 // -------------Contact form validation----------------
-const form = document.querySelector('form');
+
 const submit = document.querySelector('.form-submit-btn');
 const errordiv = document.getElementById('error-div');
 const email = document.getElementById('email');
