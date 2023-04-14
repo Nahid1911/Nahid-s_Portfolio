@@ -34,7 +34,7 @@ menuItemContact.addEventListener('click', menuDisappear);
 //  ----My Recent Works dynamic insertion ----
 const workHistory = [
   {
-    ardThumbnail: 'https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1575936123452-b67c3203c357%3Fixlib%3Drb-4.0.3%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8%26w%3D1000%26q%3D80',
+    cardThumbnail: 'https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1575936123452-b67c3203c357%3Fixlib%3Drb-4.0.3%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8%26w%3D1000%26q%3D80',
     cardTitle: 'Multi-Post Stories Gain+Glory',
     cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     btnInnerText: 'See project',
