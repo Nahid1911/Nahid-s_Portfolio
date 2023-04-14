@@ -281,3 +281,13 @@ for (let i = 0; i < projectBtn.length; i += 1) {
 const form = document.querySelector('form');
 const submit = document.querySelector('.form-submit-btn');
 const errordiv = document.getElementById('error-div');
+const email = document.getElementById('email');
+
+submit.addEventListener('click', (event) => {
+  if (email.value !== email.value.toLowerCase()) {
+    errordiv.innerHTML = 'error: please write the email address in lowercase';
+    event.preventDefault();
+  } else {
+    errordiv.innerHTML = '';
+  }
+});
