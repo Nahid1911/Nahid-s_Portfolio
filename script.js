@@ -276,3 +276,8 @@ for (let i = 0; i < projectBtn.length; i += 1) {
     // div1.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 }
+
+// -------------Contact form validation----------------
+const form = document.querySelector('form');
+const submit = document.querySelector('.form-submit-btn');
+const errordiv = document.getElementById('error-div');
