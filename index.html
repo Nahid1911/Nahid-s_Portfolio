@@ -130,7 +130,7 @@
           </p>
         </div>
         <div class="input-elements">
-          <form action="https://formspree.io/f/meqwrjvl" method="post">
+          <form id="contact-form" action="https://formspree.io/f/meqwrjvl" method="post">
             <label for="fname">Full Name</label>
             <input type="text" class="full-name" id="fname" name="fname" placeholder="Full Name" maxlength="30" required><br>
             <label for="email">E-mail Adress</label>
@@ -138,8 +138,10 @@
             <label for="Opinion">Message Box</label>
             <textarea name="message" id="Opinion" maxlength="500" placeholder="Write me something..." required></textarea>
             <div class="btn-submitContainer">
-              <button class="btn-all" type="submit" id="submit" name="submit" value="submit">Get In Touch</button>
+              <button class="btn-all form-submit-btn" type="submit" id="submit" name="submit" value="submit">Get In Touch</button>
+              <div id="error-div"></div>
             </div>
+            
           </form>
         </div>
       </section>

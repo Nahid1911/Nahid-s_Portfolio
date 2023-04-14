@@ -506,6 +506,7 @@
 
   .input-elements form .btn-submitContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
   }
 
@@ -517,6 +518,17 @@
     text-align: center;
     text-decoration: none;
     color: #42526e;
+  }
+
+  #error-div {
+    display: flex;
+    color: #d62b2b;
+    margin: 3px 42px;
+    bottom: 40px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
   }
 
   .foot-design {
@@ -968,6 +980,12 @@
     width: 100%;
   }
 
+  .input-elements form .btn-submitContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .email a {
     display: none;
   }
@@ -1129,5 +1147,16 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+  }
+
+  #error-div {
+    display: flex;
+    color: #d62b2b;
+    margin: 3px 42px;
+    bottom: 40px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
   }
 }
