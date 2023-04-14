@@ -32,28 +32,27 @@ menuItemAbout.addEventListener('click', menuDisappear);
 menuItemContact.addEventListener('click', menuDisappear);
 
 //  ----My Recent Works dynamic insertion ----
-let workHistory = [
+const workHistory = [
   {
-  cardThumbnail: "https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1575936123452-b67c3203c357%3Fixlib%3Drb-4.0.3%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8%26w%3D1000%26q%3D80",
-  cardTitle: "Multi-Post Stories Gain+Glory",
-  cardTags: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
-  btnInnerText: "See project"
-},
+    ardThumbnail: 'https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1575936123452-b67c3203c357%3Fixlib%3Drb-4.0.3%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8%26w%3D1000%26q%3D80',
+    cardTitle: 'Multi-Post Stories Gain+Glory',
+    cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    btnInnerText: 'See project',
+  },
 
-{
-  cardThumbnail: "https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1575936123452-b67c3203c357%3Fixlib%3Drb-4.0.3%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8%26w%3D1000%26q%3D80",
-  cardTitle: "Multi-Post Stories Gain+Glory",
-  cardTags: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
-  btnInnerText: "See project"
-}
+  {
+    cardThumbnail: 'https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1575936123452-b67c3203c357%3Fixlib%3Drb-4.0.3%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8%26w%3D1000%26q%3D80',
+    cardTitle: 'Multi-Post Stories Gain+Glory',
+    cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    btnInnerText: 'See project',
+  },
 
+];
 
-]
-
-let workContainer = document.getElementById('WorkContainerID');
+const workContainer = document.getElementById('WorkContainerID');
 const sectionDiv = document.createElement('div');
-  sectionDiv.id = "work-history";
-  sectionDiv.innerHTML =`
+sectionDiv.id = 'work-history';
+sectionDiv.innerHTML = `
   <div class="work-history">
     <div id="firstProCard" class="project">
       <div class="project-preview">
@@ -170,13 +169,9 @@ const sectionDiv = document.createElement('div');
       </div>
     </div>
 
-  </div>`
+  </div>`;
 
-  workContainer.appendChild(sectionDiv);
-
-
-
-
+workContainer.appendChild(sectionDiv);
 
 //  ----Mobile Popup Window ----
 
