@@ -34,14 +34,42 @@ menuItemContact.addEventListener('click', menuDisappear);
 //  ----My Recent Works dynamic insertion ----
 const workHistory = [
   {
-    cardThumbnail: 'https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1575936123452-b67c3203c357%3Fixlib%3Drb-4.0.3%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8%26w%3D1000%26q%3D80',
+    cardThumbnail: '/media/rsz_main_screen_800x500.jpg',
+    cardTitle: 'Daily Task Recorder App',
+    cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    btnInnerText: 'See project',
+  },
+
+  {
+    cardThumbnail: '/media/rsz_awesome_books_app_.jpg',
     cardTitle: 'Multi-Post Stories Gain+Glory',
     cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     btnInnerText: 'See project',
   },
 
   {
-    cardThumbnail: 'https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1575936123452-b67c3203c357%3Fixlib%3Drb-4.0.3%26ixid%3DMnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8%26w%3D1000%26q%3D80',
+    cardThumbnail: '/media/rsz_popup_mobile_thumbnail.jpg',
+    cardTitle: 'Multi-Post Stories Gain+Glory',
+    cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    btnInnerText: 'See project',
+  },
+
+  {
+    cardThumbnail: '/media/rsz_popup_mobile_thumbnail.jpg',
+    cardTitle: 'Multi-Post Stories Gain+Glory',
+    cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    btnInnerText: 'See project',
+  },
+
+  {
+    cardThumbnail: '/media/rsz_popup_mobile_thumbnail.jpg',
+    cardTitle: 'Multi-Post Stories Gain+Glory',
+    cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    btnInnerText: 'See project',
+  },
+
+  {
+    cardThumbnail: '/media/rsz_popup_mobile_thumbnail.jpg',
     cardTitle: 'Multi-Post Stories Gain+Glory',
     cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     btnInnerText: 'See project',
@@ -75,16 +103,16 @@ sectionDiv.innerHTML = `
     </div>
     <div id="2ndProCard" class="project">
       <div class="project-preview">
-        <img src=${workHistory[0].cardThumbnail}>
+        <img src=${workHistory[1].cardThumbnail}>
       </div>
       <div class="project-info">
-        <h3 class="project-title">${workHistory[0].cardTitle}</h3>
+        <h3 class="project-title">${workHistory[1].cardTitle}</h3>
         <div>
           <ul class="project-tags">
-            <li>${workHistory[0].cardTags[0]}</li>
-            <li>${workHistory[0].cardTags[1]}</li>
-            <li>${workHistory[0].cardTags[2]}</li>
-            <li>${workHistory[0].cardTags[3]}</li>
+            <li>${workHistory[1].cardTags[0]}</li>
+            <li>${workHistory[1].cardTags[1]}</li>
+            <li>${workHistory[1].cardTags[2]}</li>
+            <li>${workHistory[1].cardTags[3]}</li>
           </ul>
         </div>
         <div class="btn-container">
@@ -94,16 +122,16 @@ sectionDiv.innerHTML = `
     </div>
     <div class="project">
       <div class="project-preview">
-        <img src=${workHistory[0].cardThumbnail}>
+        <img src=${workHistory[2].cardThumbnail}>
       </div>
       <div class="project-info">
-        <h3 class="project-title">${workHistory[0].cardTitle}</h3>
+        <h3 class="project-title">${workHistory[2].cardTitle}</h3>
         <div>
           <ul class="project-tags">
-            <li>${workHistory[0].cardTags[0]}</li>
-            <li>${workHistory[0].cardTags[1]}</li>
-            <li>${workHistory[0].cardTags[2]}</li>
-            <li>${workHistory[0].cardTags[3]}</li>
+            <li>${workHistory[2].cardTags[0]}</li>
+            <li>${workHistory[2].cardTags[1]}</li>
+            <li>${workHistory[2].cardTags[2]}</li>
+            <li>${workHistory[2].cardTags[3]}</li>
           </ul>
         </div>
         <div class="btn-container">
@@ -113,16 +141,16 @@ sectionDiv.innerHTML = `
     </div>
     <div class="project">
       <div class="project-preview">
-        <img src=${workHistory[0].cardThumbnail}>
+        <img src=${workHistory[3].cardThumbnail}>
       </div>
       <div class="project-info">
-        <h3 class="project-title">${workHistory[0].cardTitle}</h3>
+        <h3 class="project-title">${workHistory[3].cardTitle}</h3>
         <div>
           <ul class="project-tags">
-            <li>${workHistory[0].cardTags[0]}</li>
-            <li>${workHistory[0].cardTags[1]}</li>
-            <li>${workHistory[0].cardTags[2]}</li>
-            <li>${workHistory[0].cardTags[3]}</li>
+            <li>${workHistory[3].cardTags[0]}</li>
+            <li>${workHistory[3].cardTags[1]}</li>
+            <li>${workHistory[3].cardTags[2]}</li>
+            <li>${workHistory[3].cardTags[3]}</li>
           </ul>
         </div>
         <div class="btn-container">
@@ -132,16 +160,16 @@ sectionDiv.innerHTML = `
     </div>
     <div class="project">
       <div class="project-preview">
-        <img src=${workHistory[0].cardThumbnail}>
+        <img src=${workHistory[4].cardThumbnail}>
       </div>
       <div class="project-info">
-        <h3 class="project-title">${workHistory[0].cardTitle}</h3>
+        <h3 class="project-title">${workHistory[4].cardTitle}</h3>
         <div>
           <ul class="project-tags">
-            <li>${workHistory[0].cardTags[0]}</li>
-            <li>${workHistory[0].cardTags[1]}</li>
-            <li>${workHistory[0].cardTags[2]}</li>
-            <li>${workHistory[0].cardTags[3]}</li>
+            <li>${workHistory[4].cardTags[0]}</li>
+            <li>${workHistory[4].cardTags[1]}</li>
+            <li>${workHistory[4].cardTags[2]}</li>
+            <li>${workHistory[4].cardTags[3]}</li>
           </ul>
         </div>
         <div class="btn-container">
@@ -151,16 +179,16 @@ sectionDiv.innerHTML = `
     </div>
     <div class="project">
       <div class="project-preview">
-        <img src=${workHistory[0].cardThumbnail}>
+        <img src=${workHistory[5].cardThumbnail}>
       </div>
       <div class="project-info">
-        <h3 class="project-title">${workHistory[0].cardTitle}</h3>
+        <h3 class="project-title">${workHistory[5].cardTitle}</h3>
         <div>
           <ul class="project-tags">
-            <li>${workHistory[0].cardTags[0]}</li>
-            <li>${workHistory[0].cardTags[1]}</li>
-            <li>${workHistory[0].cardTags[2]}</li>
-            <li>${workHistory[0].cardTags[3]}</li>
+            <li>${workHistory[5].cardTags[0]}</li>
+            <li>${workHistory[5].cardTags[1]}</li>
+            <li>${workHistory[5].cardTags[2]}</li>
+            <li>${workHistory[5].cardTags[3]}</li>
           </ul>
         </div>
         <div class="btn-container">
@@ -180,18 +208,20 @@ for (let i = 0; i < projectBtn.length; i += 1) {
   projectBtn[i].addEventListener('click', () => {
     const projects = [
       {
-        projectName: 'Keeping track of hundreds of components',
-        projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
-        projTechno: ['Ruby on Rails', 'CSS', 'JavaScript'],
-        linkToLive: 'https://nahid1911.github.io',
-        linkToSource: 'https://github.com/Nahid1911/Nahid-s_Portfolio',
+        projectName: 'Keeping track of your daily tasks with this To Do app',
+        projectDescription: 'This app is created to help you track your daily tasks, in this app you can add tasks, edit task, check multiple task as complete at once, and delete task using the three dot in the right',
+        projTechno: ['HTML', 'CSS', 'JavaScript'],
+        linkToLive: 'https://nahid1911.github.io/WebPack_To_Do_List/dist/',
+        linkToSource: 'https://github.com/Nahid1911/WebPack_To_Do_List',
+        projectThumbnail: '/media/rsz_main_screen_800x500.jpg',
       },
       {
         projectName: 'Keeping track of hundreds of components',
         projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
         projTechno: ['JavaScript', 'CSS', 'Ruby on Rails'],
-        linkToLive: 'https://nahid1911.github.io',
-        linkToSource: 'https://github.com/Nahid1911/Nahid-s_Portfolio',
+        linkToLive: 'https://nahid1911.github.io/Re-create_awesome_book_app/',
+        linkToSource: 'https://github.com/Nahid1911/Re-create_awesome_book_app',
+        projectThumbnail: 'media/rsz_awesome_books_app_.jpg',
       },
 
       {
@@ -200,6 +230,7 @@ for (let i = 0; i < projectBtn.length; i += 1) {
         projTechno: ['Ruby on Rails', 'CSS', 'JavaScript'],
         linkToLive: 'https://nahid1911.github.io',
         linkToSource: 'https://github.com/Nahid1911/Nahid-s_Portfolio',
+        projectThumbnail: 'media/Popup_img_Desktop_Portfolio.svg',
       },
 
       {
@@ -208,6 +239,7 @@ for (let i = 0; i < projectBtn.length; i += 1) {
         projTechno: ['Ruby on Rails', 'CSS', 'JavaScript'],
         linkToLive: 'https://nahid1911.github.io',
         linkToSource: 'https://github.com/Nahid1911/Nahid-s_Portfolio',
+        projectThumbnail: 'media/Popup_img_Desktop_Portfolio.svg',
       },
 
       {
@@ -216,6 +248,7 @@ for (let i = 0; i < projectBtn.length; i += 1) {
         projTechno: ['Ruby on Rails', 'CSS', 'JavaScript'],
         linkToLive: 'https://nahid1911.github.io',
         linkToSource: 'https://github.com/Nahid1911/Nahid-s_Portfolio',
+        projectThumbnail: 'media/Popup_img_Desktop_Portfolio.svg',
       },
 
       {
@@ -224,6 +257,7 @@ for (let i = 0; i < projectBtn.length; i += 1) {
         projTechno: ['Ruby on Rails', 'CSS', 'JavaScript'],
         linkToLive: 'https://nahid1911.github.io',
         linkToSource: 'https://github.com/Nahid1911/Nahid-s_Portfolio',
+        projectThumbnail: 'media/Popup_img_Desktop_Portfolio.svg',
       },
     ];
 
@@ -236,7 +270,7 @@ for (let i = 0; i < projectBtn.length; i += 1) {
         <img id="children0Img" src="media/popup_Icon_mobile_Cancel.svg">
         </div>
         <div id="children1" class="children1">
-        <img id="children1Id" src="media/Popup_img_Desktop_Portfolio.svg">
+        <img id="children1Id" src=${projects[i].projectThumbnail}>
         </div>
         <div id="children2" class="children2">
           <h2>${projects[i].projectName}</h2>
