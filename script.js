@@ -34,42 +34,42 @@ menuItemContact.addEventListener('click', menuDisappear);
 //  ----My Recent Works dynamic insertion ----
 const workHistory = [
   {
-    cardThumbnail: '/media/rsz_main_screen_800x500.jpg',
+    cardThumbnail: '/media/rsz_main_screen_800x500.png',
     cardTitle: 'Daily Task Recorder App',
     cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     btnInnerText: 'See project',
   },
 
   {
-    cardThumbnail: '/media/rsz_awesome_books_app_.jpg',
+    cardThumbnail: '/media/rsz_awesome_books_app_.png',
+    cardTitle: 'Single Page Website for displaying books',
+    cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
+    btnInnerText: 'See project',
+  },
+
+  {
+    cardThumbnail: '/media/rsz_popup_mobile_thumbnail.png',
     cardTitle: 'Multi-Post Stories Gain+Glory',
     cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     btnInnerText: 'See project',
   },
 
   {
-    cardThumbnail: '/media/rsz_popup_mobile_thumbnail.jpg',
+    cardThumbnail: '/media/rsz_popup_mobile_thumbnail.png',
     cardTitle: 'Multi-Post Stories Gain+Glory',
     cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     btnInnerText: 'See project',
   },
 
   {
-    cardThumbnail: '/media/rsz_popup_mobile_thumbnail.jpg',
+    cardThumbnail: '/media/rsz_popup_mobile_thumbnail.png',
     cardTitle: 'Multi-Post Stories Gain+Glory',
     cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     btnInnerText: 'See project',
   },
 
   {
-    cardThumbnail: '/media/rsz_popup_mobile_thumbnail.jpg',
-    cardTitle: 'Multi-Post Stories Gain+Glory',
-    cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
-    btnInnerText: 'See project',
-  },
-
-  {
-    cardThumbnail: '/media/rsz_popup_mobile_thumbnail.jpg',
+    cardThumbnail: '/media/rsz_popup_mobile_thumbnail.png',
     cardTitle: 'Multi-Post Stories Gain+Glory',
     cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     btnInnerText: 'See project',
@@ -213,15 +213,15 @@ for (let i = 0; i < projectBtn.length; i += 1) {
         projTechno: ['HTML', 'CSS', 'JavaScript'],
         linkToLive: 'https://nahid1911.github.io/WebPack_To_Do_List/dist/',
         linkToSource: 'https://github.com/Nahid1911/WebPack_To_Do_List',
-        projectThumbnail: '/media/rsz_main_screen_800x500.jpg',
+        projectThumbnail: '/media/rsz_main_screen_800x500.png',
       },
       {
-        projectName: 'Keeping track of hundreds of components',
+        projectName: 'Display Book in the website',
         projectDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
         projTechno: ['JavaScript', 'CSS', 'Ruby on Rails'],
         linkToLive: 'https://nahid1911.github.io/Re-create_awesome_book_app/',
         linkToSource: 'https://github.com/Nahid1911/Re-create_awesome_book_app',
-        projectThumbnail: 'media/rsz_awesome_books_app_.jpg',
+        projectThumbnail: 'media/rsz_awesome_books_app_.png',
       },
 
       {
