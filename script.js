@@ -34,42 +34,42 @@ menuItemContact.addEventListener('click', menuDisappear);
 //  ----My Recent Works dynamic insertion ----
 const workHistory = [
   {
-    cardThumbnail: '/media/rsz_main_screen_800x500.png',
+    cardThumbnail: 'media/rsz_main_screen_800x500.jpeg',
     cardTitle: 'Daily Task Recorder App',
     cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     btnInnerText: 'See project',
   },
 
   {
-    cardThumbnail: '/media/rsz_awesome_books_app_.png',
+    cardThumbnail: 'media/rsz_awesome_books_app_.jpeg',
     cardTitle: 'Single Page Website for displaying books',
     cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     btnInnerText: 'See project',
   },
 
   {
-    cardThumbnail: '/media/rsz_popup_mobile_thumbnail.png',
+    cardThumbnail: 'media/rsz_popup_mobile_thumbnail.jpeg',
     cardTitle: 'Multi-Post Stories Gain+Glory',
     cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     btnInnerText: 'See project',
   },
 
   {
-    cardThumbnail: '/media/rsz_popup_mobile_thumbnail.png',
+    cardThumbnail: 'media/rsz_popup_mobile_thumbnail.jpeg',
     cardTitle: 'Multi-Post Stories Gain+Glory',
     cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     btnInnerText: 'See project',
   },
 
   {
-    cardThumbnail: '/media/rsz_popup_mobile_thumbnail.png',
+    cardThumbnail: 'media/rsz_popup_mobile_thumbnail.jpeg',
     cardTitle: 'Multi-Post Stories Gain+Glory',
     cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     btnInnerText: 'See project',
   },
 
   {
-    cardThumbnail: '/media/rsz_popup_mobile_thumbnail.png',
+    cardThumbnail: 'media/rsz_popup_mobile_thumbnail.jpeg',
     cardTitle: 'Multi-Post Stories Gain+Glory',
     cardTags: ['Ruby on Rails', 'CSS', 'JavaScript', 'HTML'],
     btnInnerText: 'See project',
@@ -213,7 +213,7 @@ for (let i = 0; i < projectBtn.length; i += 1) {
         projTechno: ['HTML', 'CSS', 'JavaScript'],
         linkToLive: 'https://nahid1911.github.io/WebPack_To_Do_List/dist/',
         linkToSource: 'https://github.com/Nahid1911/WebPack_To_Do_List',
-        projectThumbnail: '/media/rsz_main_screen_800x500.png',
+        projectThumbnail: 'media/rsz_main_screen_800x500.jpeg',
       },
       {
         projectName: 'Display Book in the website',
@@ -221,7 +221,7 @@ for (let i = 0; i < projectBtn.length; i += 1) {
         projTechno: ['JavaScript', 'CSS', 'Ruby on Rails'],
         linkToLive: 'https://nahid1911.github.io/Re-create_awesome_book_app/',
         linkToSource: 'https://github.com/Nahid1911/Re-create_awesome_book_app',
-        projectThumbnail: 'media/rsz_awesome_books_app_.png',
+        projectThumbnail: 'media/rsz_awesome_books_app_.jpeg',
       },
 
       {
